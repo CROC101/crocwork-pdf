@@ -1053,7 +1053,7 @@ calendar date	January	januari
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript är avstängt (Inställningar > JavaScript).
 	JavaScript, e.g. getField("total").value	JavaScript, t.ex. getField("total").value
 	Join the crocwork community	Gå med i crocwork-communityn
-	Join the crocwork Discord	Gå med i ArtCrafts Discord
+	Join the crocwork Discord	Gå med i crocwork Discord
 	July	juli
 calendar date	July	juli
 	June	juni
@@ -1464,7 +1464,7 @@ animation effects	On	På
 	crocwork PDF didn't shut down normally. These documents had changes that were autosaved:	crocwork PDF stängdes inte av normalt. De här dokumenten hade ändringar som sparades automatiskt:
 	crocwork PDF is drawing without a graphics processor, so it may be slow. Updating the graphics driver may help.	crocwork PDF ritar utan grafikprocessor, så det kan bli långsamt. Att uppdatera grafikdrivrutinen kan hjälpa.
 	crocwork PDF on GitHub	crocwork PDF på GitHub
-	crocwork PDF web page	PdfCrafts webbsida
+	crocwork PDF web page	crocwork PDF webbsida
 	crocwork PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	crocwork PDF fungerar offline. Ingen telemetri, inget konto och ingen molnbearbetning om du inte lägger till en leverantör.
 	crocwork PDF {c} is up to date.	crocwork PDF {c} är aktuell.
 	crocwork PDF {v} is available.	crocwork PDF {v} är tillgänglig.

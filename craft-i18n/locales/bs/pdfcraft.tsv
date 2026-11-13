@@ -64,7 +64,7 @@
 	A {} annotation has additional actions	Napomena {} ima dodatne akcije
 	A {} annotation has no appearance stream	Napomena {} nema tok izgleda
 	A {} annotation isn't set to print, or is hidden	Napomena {} nije postavljena za štampanje ili je skrivena
-	About crocwork PDF	O PdfCraftu
+	About crocwork PDF	O crocwork PDF
 	Accepted	Prihvaćeno
 	Accessibility Checker	Provjera pristupačnosti
 	Accessibility Checker Options	Opcije provjere pristupačnosti
@@ -850,7 +850,7 @@ calendar date	February	februar
 	Files are combined in the order shown. Drag them to change it.	Datoteke se kombinuju prikazanim redoslijedom. Prevucite ih da ga promijenite.
 	Files are combined in this order. Leave Pages empty to take every page.	Datoteke se kombinuju ovim redoslijedom. Ostavite Stranice prazno da uzmete svaku stranicu.
 	Files for {name}	Datoteke za {name}
-	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	Datoteke koje otvorite u PdfCraftu pojavljuju se ovdje. Ispustite PDF bilo gdje da ga otvorite.
+	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	Datoteke koje otvorite u crocwork PDF pojavljuju se ovdje. Ispustite PDF bilo gdje da ga otvorite.
 	Fill & Sign	Popuni i potpiši
 	Fill & Sign dates	Datumi za Popuni i potpiši
 	Fill & Sign signature	Potpis za Popuni i potpiši
@@ -1488,7 +1488,7 @@ animation effects	On	Uključeno
 	crocwork PDF didn't shut down normally. These documents had changes that were autosaved:	crocwork PDF se nije normalno ugasio. Ovi dokumenti su imali promjene koje su automatski sačuvane:
 	crocwork PDF is drawing without a graphics processor, so it may be slow. Updating the graphics driver may help.	crocwork PDF crta bez grafičkog procesora, pa može biti spor. Ažuriranje upravljačkog programa za grafiku može pomoći.
 	crocwork PDF on GitHub	crocwork PDF na GitHubu
-	crocwork PDF web page	Web stranica PdfCrafta
+	crocwork PDF web page	Web stranica crocwork PDF
 	crocwork PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	crocwork PDF radi van mreže. Bez telemetrije, bez računa i bez obrade u oblaku osim ako ne dodate pružaoca.
 	crocwork PDF {v} is available.	Dostupan je crocwork PDF {v}.
 	People may need more time to respond. Check that nothing has a time limit.	Ljudima može trebati više vremena da odgovore. Provjerite da ništa nema vremensko ograničenje.

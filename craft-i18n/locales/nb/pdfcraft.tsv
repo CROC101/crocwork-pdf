@@ -57,7 +57,7 @@
 	A form field has additional actions	Et skjemafelt har tilleggshandlinger
 	A link	En lenke
 	A link or special file, which isn't followed	A link or special file, which isn't followed
-	A logo or name at the left of the tabs, where a title bar would show one: crocwork PDF's own, or your company's.	En logo eller et navn til venstre for fanene, der en tittellinje ville vist det: PdfCrafts egen eller bedriftens.
+	A logo or name at the left of the tabs, where a title bar would show one: crocwork PDF's own, or your company's.	En logo eller et navn til venstre for fanene, der en tittellinje ville vist det: crocwork PDF egen eller bedriftens.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Et bilde dekker side {pages} (en skanning?), så bakgrunnen vises ikke der.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	En plassert signatur er en kommentar til den låses: alle med et PDF-redigeringsprogram kan flytte eller fjerne den. Låsing gjør teksten, merkene og signaturene fra Fyll ut og signer til en del av siden.
@@ -1759,7 +1759,7 @@ animation effects	On	På
 	crocwork PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	crocwork PDF fungerer uten nett. Ingen telemetri, ingen konto og ingen skybehandling med mindre du legger til en leverandør.
 	crocwork PDF {c} is up to date.	crocwork PDF {c} er oppdatert.
 	crocwork PDF {v} is available.	crocwork PDF {v} er tilgjengelig.
-	crocwork PDF's own	PdfCrafts egen
+	crocwork PDF's own	crocwork PDF egen
 	People may need more time to respond. Check that nothing has a time limit.	Noen kan trenge mer tid på å svare. Kontroller at ingenting har en tidsgrense.
 	Permissions password	Tillatelsespassord
 	Permitted actions after certifying	Tillatte handlinger etter sertifisering

@@ -1421,7 +1421,7 @@ scroll speed	Fast	速い
 	Hide menu bar	メニューバーを非表示
 	Hide Others	ほかを非表示
 	Hide password	パスワードを隠す
-	Hide crocwork PDF	crocwork PDFを非表示
+	Hide crocwork PDF	crocwork PDF
 	Hide template {name}	テンプレート {name} を非表示
 	Hide toolbars	ツールバーを非表示
 	Hide window controls	ウィンドウコントロールを非表示
@@ -1447,7 +1447,7 @@ key	Home	Home
 	Horizontal reversed	横（逆順）
 	How Edit text reads old fonts that don't say which letters they draw. Auto-detect recognises Hebrew fonts laid out for ISO 8859-8 or Windows-1255.	描画する文字を示さない古いフォントを「テキストを編集」がどう読むかを指定します。自動検出では ISO 8859-8 または Windows-1255 に基づくヘブライ語フォントを認識します。
 	HTML web page	HTML ウェブページ
-	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart crocwork PDF after installation.	ハンガリー語OCRには、デスクトップアプリ、Tesseract 5、hun言語モデルが必要です。インストール後にcrocwork PDFを再起動してください。
+	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart crocwork PDF after installation.	ハンガリー語OCRには、デスクトップアプリ、Tesseract 5、hun言語モデルが必要です。インストール後にcrocwork PDF。
 	I confirm sending this document to this printer	この文書をこのプリンターに送信することを確認します
 	I understand that the redacted content is removed for good	墨消しした内容が完全に削除されることを理解しました
 	ICC profile: {name}	ICC プロファイル: {name}
@@ -2327,7 +2327,7 @@ animation effects	On	オン
 	Query the printer first to see what it supports.	まずプリンターに問い合わせて、対応している内容を確認してください。
 	Quirks	特記事項
 	Quit	終了
-	Quit crocwork PDF	crocwork PDFを終了
+	Quit crocwork PDF	crocwork PDF
 	Quit {app}	{app}を終了
 	Radio	ラジオボタン
 	Radio button	ラジオボタン
@@ -3403,8 +3403,8 @@ document scrollbar width	Standard	標準
 	This form also contains XFA data, which crocwork PDF doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	このフォームには crocwork PDF がまだ読み取れない XFA データも含まれます。フィールドには入力できますが、Acrobat は代わりに XFA の値を表示する場合があります。
 	This form's scripts are turned off because one ran too long. Reopen the document to run them again.	このフォームのスクリプトは、実行に時間がかかりすぎたものがあったため無効になっています。もう一度実行するには、文書を再度開いてください。
 	This form's submission format or field selection is not supported yet.	このフォームの送信形式またはフィールドの選択にはまだ対応していません。
-	This installation is owned by a Debian package. Use your system software manager to update crocwork PDF.	このインストールはDebianパッケージが管理しています。システムのソフトウェア管理ツールでcrocwork PDFを更新してください。
-	This installation is owned by an RPM package. Use your system software manager to update crocwork PDF.	このインストールはRPMパッケージが管理しています。システムのソフトウェア管理ツールでcrocwork PDFを更新してください。
+	This installation is owned by a Debian package. Use your system software manager to update crocwork PDF.	このインストールはDebianパッケージが管理しています。システムのソフトウェア管理ツールでcrocwork PDF。
+	This installation is owned by an RPM package. Use your system software manager to update crocwork PDF.	このインストールはRPMパッケージが管理しています。システムのソフトウェア管理ツールでcrocwork PDF。
 	This is a dynamic XFA form, which crocwork PDF can't display yet. What you see is the file's placeholder page.	この文書は動的 XFA フォームで、crocwork PDF はまだ表示できません。現在はファイルの代替ページを表示しています。
 	This is a one-time download from GitHub. Afterward, form detection works offline. Your PDFs stay on this device.	GitHub からのダウンロードは一度だけです。その後はオフラインで検出できます。PDF はこのデバイスに保存されたままです。
 	This is a picture of a signature, not a digital signature: only the mark on the page goes. The original file is kept as it is.	これは署名の画像で、デジタル署名ではありません。ページ上の印だけを削除します。元のファイルはそのまま残ります。
@@ -3581,7 +3581,7 @@ signature pad	Type	入力
 	Use this size for saved initials	保存したイニシャルにこのサイズを使用
 	Use this size for saved signature	保存した署名にこのサイズを使用
 	Use WKT definition	WKT 定義を使用
-	Use your system software manager to update crocwork PDF.	システムのソフトウェア管理ツールでcrocwork PDFを更新してください。
+	Use your system software manager to update crocwork PDF.	システムのソフトウェア管理ツールでcrocwork PDF。
 	Use {what}	{what}を使用
 	Used when a PDF doesn't ask for a layout or zoom. Continuous scrolling never snaps between pages.	PDF にレイアウトやズームの指定がない場合に使用されます。連続スクロールでは、ページの境目にスナップすることはありません。
 	Used when opening PDFs. An explicit launch or control mode takes precedence for the session.	PDF を開くときに使用されます。起動モードや制御モードを明示的に指定した場合は、そのセッションではそちらが優先されます。

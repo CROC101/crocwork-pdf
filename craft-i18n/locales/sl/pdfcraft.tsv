@@ -67,12 +67,12 @@
 	A link	Povezava
 	A link or special file, which isn't followed	A link or special file, which isn't followed
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Krajevni model ni vodilni oblak: lahko se zmoti, dolg odgovor pa na procesorju vzame svoj čas. Preverite vse ključno in pred prenosom primerjte velikost modela s tem računalnikom.
-	A logo or name at the left of the tabs, where a title bar would show one: crocwork PDF's own, or your company's.	Logotip ali ime levo od zavihkov, kjer bi ga pokazala naslovna vrstica: PdfCraftov ali vašega podjetja.
+	A logo or name at the left of the tabs, where a title bar would show one: crocwork PDF's own, or your company's.	Logotip ali ime levo od zavihkov, kjer bi ga pokazala naslovna vrstica: crocwork PDF ali vašega podjetja.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Število strani ustavi podajalnik po toliko listih. Preklic prej konča prenos; že prejete strani ostanejo v dokumentu.
 	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Pri datoteki, zaščiteni z geslom, se ob shranjevanju preveri le, ali se znova odpre; njeni bajti se ne preiščejo znova za odstranjeno besedilo.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Stran, ki jo prekriva slika (skeniranje?): {pages}; ozadje tam ne bo vidno.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Postavljen podpis je komentar, dokler ni zaklenjen: vsak z urejevalnikom PDF ga lahko premakne ali odstrani. Zaklepanje naredi besedilo, oznake in podpise iz Izpolni in podpiši del strani.
-	A PNG or SVG file. It is read from this place each time crocwork PDF starts.	Datoteka PNG ali SVG. Prebere se s tega mesta ob vsakem zagonu PdfCrafta.
+	A PNG or SVG file. It is read from this place each time crocwork PDF starts.	Datoteka PNG ali SVG. Prebere se s tega mesta ob vsakem zagonu crocwork PDF.
 	A script	Skript
 	A selected field has no widget on any page, so the fields can't be edited together.	Izbrano polje nima gradnika na nobeni strani, zato polj ni mogoče urejati skupaj.
 	A setting isn't valid	Nastavitev ni veljavna
@@ -1173,7 +1173,7 @@ scroll speed	Fast	Hitro
 	Files are combined in the order shown. Drag them to change it.	Datoteke se združijo v prikazanem vrstnem redu. Povlecite jih, da ga spremenite.
 	Files are combined in this order. Leave Pages empty to take every page.	Datoteke se združijo v tem vrstnem redu. Če pustite Strani prazno, se vzamejo vse strani.
 	Files for {name}	Datoteke za {name}
-	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	Datoteke, ki jih odprete v PdfCraftu, se prikažejo tukaj. Spustite PDF kamor koli, da ga odprete.
+	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	Datoteke, ki jih odprete v crocwork PDF, se prikažejo tukaj. Spustite PDF kamor koli, da ga odprete.
 	Fill & Sign	Izpolni in podpiši
 	Fill & Sign dates	Datumi pri Izpolni in podpiši
 	Fill & sign mode	Način izpolnjevanja in podpisovanja
@@ -2093,7 +2093,7 @@ animation effects	On	Vklopljeni
 	crocwork PDF web page	Spletna stran crocwork PDF
 	crocwork PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	crocwork PDF deluje brez povezave. Brez telemetrije, brez računa in brez obdelave v oblaku, razen če dodate ponudnika.
 	crocwork PDF {v} is available.	Na voljo je crocwork PDF {v}.
-	crocwork PDF's own	PdfCraftov
+	crocwork PDF's own	crocwork PDF
 	People may need more time to respond. Check that nothing has a time limit.	Ljudje bodo morda potrebovali več časa za odziv. Preverite, da nič nima časovne omejitve.
 	Permissions password	Geslo za dovoljenja
 	Permitted actions after certifying	Dovoljena dejanja po overitvi
@@ -2371,7 +2371,7 @@ animation effects	On	Vklopljeni
 	Rename…	Preimenuj…
 	Rendering: hayro (bootstrap) · UI: egui · Icons: Lucide (ISC) · Fonts: Inter, JetBrains Mono, Dancing Script (OFL)	Izris: hayro (bootstrap) · Vmesnik: egui · Ikone: Lucide (ISC) · Pisave: Inter, JetBrains Mono, Dancing Script (OFL)
 	Reopen Closed Tab	Znova odpri zaprti zavihek
-	Reopen the files that were open when crocwork PDF last closed	Ponovno odpri datoteke, ki so bile odprte ob zadnjem zaprtju PdfCrafta
+	Reopen the files that were open when crocwork PDF last closed	Ponovno odpri datoteke, ki so bile odprte ob zadnjem zaprtju crocwork PDF
 	Repair log	Dnevnik popravil
 	Repairs	Popravila
 	Repeat	Ponovi
@@ -3008,7 +3008,7 @@ certificate	Subject	Imetnik
 	The copy to attach couldn't be written: {e}	Kopije za prilogo ni bilo mogoče zapisati: {e}
 	The desktop portal's file chooser isn't running ({packages}). Check it with systemctl --user status {first}, or log out and back in.	Izbirnik datotek namiznega portala ne deluje ({packages}). Preverite ga z ukazom systemctl --user status {first} ali se odjavite in znova prijavite.
 	The device's digital ID isn't available any more; start signing again to list it.	Digitalna identiteta naprave ni več na voljo; za prikaz znova začnite podpisovanje.
-	The Dock shows it the next time crocwork PDF opens.	Dock jo bo pokazal ob naslednjem odprtju PdfCrafta.
+	The Dock shows it the next time crocwork PDF opens.	Dock jo bo pokazal ob naslednjem odprtju crocwork PDF.
 	The document changed while it was being signed, so the signature wasn't saved.	Dokument se je med podpisovanjem spremenil, zato podpis ni bil shranjen.
 	The document changed while its margins were measured; nothing was cropped	Dokument se je spremenil med merjenjem robov; nič ni bilo obrezano
 	The document changed while you were choosing a file, so nothing was changed.	Dokument se je spremenil, medtem ko ste izbirali datoteko, zato ni bilo spremenjeno nič.
@@ -3472,7 +3472,7 @@ signature pad	Type	Vtipkaj
 	Waiting in the printer's queue	Čaka v vrsti tiskalnika
 	watermark	vodni žig
 	Weak	Šibko
-	Welcome to crocwork PDF	Dobrodošli v PdfCraftu
+	Welcome to crocwork PDF	Dobrodošli v crocwork PDF
 	What must go, and what the document is	Kaj mora izginiti in kaj je dokument
 	What takes up the space in this file, by kind of content.	Kaj zaseda prostor v tej datoteki, po vrsti vsebine.
 	What word or phrase would you like to search for?	Katero besedo ali besedno zvezo želite poiskati?

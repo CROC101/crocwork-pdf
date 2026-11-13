@@ -83,7 +83,7 @@
 	A line is {} pt wide	Viivan leveys on {} pt
 	A link	Linkki
 	A link or special file, which isn't followed	A link or special file, which isn't followed
-	A logo or name at the left of the tabs, where a title bar would show one: crocwork PDF's own, or your company's.	Logo tai nimi välilehtien vasemmalla puolella, jossa otsikkorivi näyttäisi sellaisen: PdfCraftin oma tai yrityksesi.
+	A logo or name at the left of the tabs, where a title bar would show one: crocwork PDF's own, or your company's.	Logo tai nimi välilehtien vasemmalla puolella, jossa otsikkorivi näyttäisi sellaisen: crocwork PDF oma tai yrityksesi.
 	A mesh shading's colours change too sharply between its corners to convert to CMYK exactly	Verkkosävytyksen värit muuttuvat kulmien välillä liian jyrkästi tarkasti CMYK:ksi muunnettaviksi
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.
 	A pattern over RGB or device-independent colour can't be converted to CMYK yet	RGB- tai laitteesta riippumattoman värin päällä olevaa kuviota ei vielä voi muuntaa CMYK:ksi
@@ -119,7 +119,7 @@
 	A {} annotation lies inside the trim	{}-merkintä on rajauksen sisällä
 	A {} annotation lies within the BleedBox	{}-merkintä on BleedBoxin sisällä
 	A {} colour space's parameters can't be read	Väriavaruuden {} parametreja ei voi lukea
-	About crocwork PDF	Tietoja PdfCraftista
+	About crocwork PDF	Tietoja crocwork PDF
 	About {app}	Tietoja: {app}
 	about {h} h {m} min left	noin {h} h {m} min jäljellä
 	about {n} min left	noin {n} min jäljellä
@@ -635,7 +635,7 @@ certificate	Basic constraints	Perusrajoitukset
 	Comb of characters	Merkkiruudukko
 	Combine	Yhdistä
 	Combine files	Yhdistä tiedostot
-	Combine files in crocwork PDF…	Yhdistä tiedostot PdfCraftissa…
+	Combine files in crocwork PDF…	Yhdistä tiedostot crocwork PDF…
 	Combine files…	Yhdistä tiedostot…
 	Combine the rest	Yhdistä loput
 	Combined {n} files	Yhdistettiin {n} tiedostoa
@@ -702,7 +702,7 @@ certificate	Basic constraints	Perusrajoitukset
 	Convert mode	Muunnostila
 	Convert to	Muunna muotoon
 	Convert to PDF and email…	Muunna PDF:ksi ja lähetä sähköpostilla…
-	Convert to PDF with crocwork PDF	Muunna PDF:ksi PdfCraftilla
+	Convert to PDF with crocwork PDF	Muunna PDF:ksi crocwork PDF
 	Converted from an EPUB book.	Converted from an EPUB book.
 	Converted from an EPUB book. Details lists how it was laid out and what was left out.	Muunnettu EPUB-kirjasta. Tiedot-kohdassa kerrotaan, miten se asenneltiin ja mitä jätettiin pois.
 	Converted to {level} ({n} changes)	Muunnettu muotoon {level} ({n} muutosta)
@@ -1216,7 +1216,7 @@ calendar date	February	helmikuuta
 	Files are combined in the order shown. Drag them to change it.	Tiedostot yhdistetään näytetyssä järjestyksessä. Muuta järjestystä vetämällä.
 	Files are combined in this order. Leave Pages empty to take every page.	Tiedostot yhdistetään tässä järjestyksessä. Jätä Sivut tyhjäksi, niin kaikki sivut otetaan mukaan.
 	Files for {name}	Tiedostot: {name}
-	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	PdfCraftissa avatut tiedostot näkyvät tässä. Avaa PDF pudottamalla se mihin tahansa.
+	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	crocwork PDF avatut tiedostot näkyvät tässä. Avaa PDF pudottamalla se mihin tahansa.
 	Fill	Täytä
 	Fill & Sign	Täytä ja allekirjoita
 	Fill & Sign dates	Täytä ja allekirjoita -päivämäärät
@@ -1368,7 +1368,7 @@ calendar weekday	Fr	Pe
 	From	Alkaen
 	From a PDF page or an image	PDF-sivusta tai kuvasta
 	From colour	Väristä
-	From Finder: select files, then right-click > Quick Actions > Combine files in crocwork PDF. Not listed? Turn it on once under Quick Actions > Customize.	Finderissa: valitse tiedostot, napsauta sitten hiiren kakkospainikkeella > Pikatoiminnot > Yhdistä tiedostot PdfCraftilla. Ei luettelossa? Ota se käyttöön kerran kohdassa Pikatoiminnot > Mukauta.
+	From Finder: select files, then right-click > Quick Actions > Combine files in crocwork PDF. Not listed? Turn it on once under Quick Actions > Customize.	Finderissa: valitse tiedostot, napsauta sitten hiiren kakkospainikkeella > Pikatoiminnot > Yhdistä tiedostot crocwork PDF. Ei luettelossa? Ota se käyttöön kerran kohdassa Pikatoiminnot > Mukauta.
 	From scanner…	From scanner…
 	From template	Mallista
 	From {file}	Lähteestä {file}
@@ -1565,7 +1565,7 @@ calendar date	January	tammikuuta
 	JavaScript, e.g. getField("total").value	JavaScript, esim. getField("total").value
 	JBIG2 (lossless)	JBIG2 (häviötön)
 	Join the crocwork community	Liity crocwork-yhteisöön
-	Join the crocwork Discord	Liity ArtCraftin Discordiin
+	Join the crocwork Discord	Liity crocwork Discordiin
 	JPEG 2000 pictures need PDF 1.5, newer than {} allows	JPEG 2000 -kuvat tarvitsevat PDF 1.5:n, joka on uudempi kuin {} sallii
 	July	Heinäkuu
 calendar date	July	heinäkuuta
@@ -2145,7 +2145,7 @@ animation effects	On	Käytössä
 	Pages selected	Valitut sivut
 	Pages that are only pictures of text can't be read aloud or searched. Recognize text (OCR) to add a text layer.	Sivuja, jotka ovat pelkkiä kuvia tekstistä, ei voi lukea ääneen eikä hakea. Lisää tekstitaso tunnistamalla teksti (OCR).
 	Pages that couldn't be read: {n}	Pages that couldn't be read: {n}
-	Pages that use Type 3 fonts print as images, because Windows can close crocwork PDF while printing them. The other pages print as usual.	Type 3 -fontteja käyttävät sivut tulostetaan kuvina, koska Windows voi sulkea PdfCraftin niitä tulostettaessa. Muut sivut tulostetaan tavalliseen tapaan.
+	Pages that use Type 3 fonts print as images, because Windows can close crocwork PDF while printing them. The other pages print as usual.	Type 3 -fontteja käyttävät sivut tulostetaan kuvina, koska Windows voi sulkea crocwork PDF niitä tulostettaessa. Muut sivut tulostetaan tavalliseen tapaan.
 	Pages to Print	Tulostettavat sivut
 	Pages whose text couldn't be read: {n}. A match on them isn't listed.	Sivuja, joiden tekstiä ei voitu lukea: {n}. Niillä olevia osumia ei näytetä.
 	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	Sivuilla, joilla on linkkejä, kommentteja tai kenttiä, sarkaimen tulisi edetä rakennejärjestyksessä. Korjaus asettaa kunkin sivun sarkainjärjestykseksi Käytä asiakirjan rakennetta.
@@ -2194,11 +2194,11 @@ animation effects	On	Käytössä
 	crocwork PDF looks for the libraries device vendors install. Choose one only if your device isn't found.	crocwork PDF etsii laitevalmistajien asentamat kirjastot. Valitse kirjasto vain, jos laitettasi ei löydy.
 	crocwork PDF on GitHub	crocwork PDF GitHubissa
 	crocwork PDF opens the provider's page, where you sign in with your CPF, PIN and one-time code.	crocwork PDF avaa palveluntarjoajan sivun, jolla kirjaudut CPF:llä, PIN-koodilla ja kertakäyttökoodilla.
-	crocwork PDF web page	PdfCraftin verkkosivu
+	crocwork PDF web page	crocwork PDF verkkosivu
 	crocwork PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	crocwork PDF toimii ilman verkkoyhteyttä. Ei telemetriaa, ei tiliä eikä pilvikäsittelyä, ellei palveluntarjoajaa lisätä.
 	crocwork PDF {c} is up to date.	crocwork PDF {c} on ajan tasalla.
 	crocwork PDF {v} is available.	crocwork PDF {v} on saatavilla.
-	crocwork PDF's own	PdfCraftin oma
+	crocwork PDF's own	crocwork PDF oma
 	People may need more time to respond. Check that nothing has a time limit.	Käyttäjät voivat tarvita enemmän aikaa vastaamiseen. Tarkista, ettei missään ole aikarajaa.
 	Percentage	Prosentti
 	Perimeter	Ympärysmitta
@@ -3147,7 +3147,7 @@ calendar weekday	Th	To
 	The font {} has characters with no Unicode value	Fontissa {} on merkkejä, joilla ei ole Unicode-arvoa
 	The font {} isn't embedded	Fonttia {} ei ole upotettu
 	The font {} maps characters to U+0000, U+FEFF or U+FFFE	Fontti {} yhdistää merkkejä arvoihin U+0000, U+FEFF tai U+FFFE
-	The fonts crocwork PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	PdfCraftin käyttämät fontit eivät pysty piirtämään merkkiä ”{c}” ({code}), joten se näkyy merkkinä ? kaikissa PDF-katseluohjelmissa. Teksti tallennetaan.
+	The fonts crocwork PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	crocwork PDF käyttämät fontit eivät pysty piirtämään merkkiä ”{c}” ({code}), joten se näkyy merkkinä ? kaikissa PDF-katseluohjelmissa. Teksti tallennetaan.
 	The form asks to be submitted to {u}; crocwork PDF doesn't send form data. Save the document to keep your entries.	Lomake pyytää lähettämään tiedot osoitteeseen {u}; crocwork PDF ei lähetä lomaketietoja. Tallenna asiakirja, jotta syötetyt tiedot säilyvät.
 	The form asks viewers to make appearances (NeedAppearances)	Lomake pyytää katseluohjelmia luomaan ulkoasut (NeedAppearances)
 	The fronts already scanned are kept for the reverse-side pass.	The fronts already scanned are kept for the reverse-side pass.
@@ -3161,8 +3161,8 @@ calendar weekday	Th	To
 	The image has been copied as a {ext} file	Kuva on kopioitu {ext}-tiedostona
 	the image is empty	kuva on tyhjä
 	The job was canceled	Työ peruttiin
-	The key is in the macOS Keychain, which may ask to allow crocwork PDF to use it.	Avain on macOS-avainnipussa, joka voi pyytää lupaa PdfCraftin käytölle.
-	The key is in the Windows certificate store, which may ask to allow crocwork PDF to use it.	Avain on Windowsin varmennesäilössä, joka voi pyytää lupaa PdfCraftin käytölle.
+	The key is in the macOS Keychain, which may ask to allow crocwork PDF to use it.	Avain on macOS-avainnipussa, joka voi pyytää lupaa crocwork PDF käytölle.
+	The key is in the Windows certificate store, which may ask to allow crocwork PDF to use it.	Avain on Windowsin varmennesäilössä, joka voi pyytää lupaa crocwork PDF käytölle.
 	The key is on {device}, which asks for approval itself (a PIN pad, or an app on your phone).	Avain on laitteessa {device}, joka pyytää hyväksynnän itse (PIN-näppäimistö tai puhelimen sovellus).
 	The Keychain's digital IDs couldn't be listed: {e}	Avainnipun digitaalisia tunnuksia ei voitu luetella: {e}
 	The labels are in English: the signature's font can't draw them in this language.	Tunnisteet ovat englanniksi: allekirjoituksen fontti ei pysty piirtämään niitä tällä kielellä.
@@ -3645,7 +3645,7 @@ certificate	Version	Versio
 	watermark	vesileima
 calendar weekday	We	Ke
 	Weak	Heikko
-	Welcome to crocwork PDF	Tervetuloa PdfCraftiin
+	Welcome to crocwork PDF	Tervetuloa crocwork PDF
 	What takes up the space in this file, by kind of content.	Mikä tässä tiedostossa vie tilaa, sisältötyypeittäin.
 	What word or phrase would you like to search for?	Mitä sanaa tai ilmausta haluat hakea?
 	White on black	Valkoinen mustalla
@@ -3682,7 +3682,7 @@ calendar weekday	We	Ke
 	You choose where the new version is saved. Continue?	Valitset itse, mihin uusi versio tallennetaan. Jatketaanko?
 	You have version {c}. All releases are listed at {page}.	Käytössä on versio {c}. Kaikki julkaisut on lueteltu sivulla {page}.
 	You have version {c}. Download the new version from its release page.	Käytössä on versio {c}. Lataa uusi versio sen julkaisusivulta.
-	Your default email app can't take a file from crocwork PDF.	Oletussähköpostisovelluksesi ei voi ottaa vastaan tiedostoa PdfCraftilta.
+	Your default email app can't take a file from crocwork PDF.	Oletussähköpostisovelluksesi ei voi ottaa vastaan tiedostoa crocwork PDF.
 	Your email app couldn't log on to your mailbox.	Sähköpostisovelluksesi ei voinut kirjautua postilaatikkoosi.
 	Your email app didn't open a message in time.	Sähköpostisovelluksesi ei avannut viestiä ajoissa.
 	Your email app didn't open a message. It said: {why}.	Sähköpostisovelluksesi ei avannut viestiä. Se ilmoitti: {why}.
@@ -3811,7 +3811,7 @@ calendar weekday	We	Ke
 	{n} word(s) or phrase(s)	Sanoja tai lauseita: {n}
 	{n} {kind}	{n} {kind}
 	{page} is not a page number or label	{page} ei ole sivunumero tai -tunniste
-	{program} can't take a file from crocwork PDF.	{program} ei voi ottaa vastaan tiedostoa PdfCraftilta.
+	{program} can't take a file from crocwork PDF.	{program} ei voi ottaa vastaan tiedostoa crocwork PDF.
 	{rule} - {status}	{rule} - {status}
 	{s} action	Toiminto {s}
 	{type} has {count} elements, but they come in sets of {n}	Tyypissä {type} on {count} alkiota, mutta niitä tulee {n} alkion ryhminä

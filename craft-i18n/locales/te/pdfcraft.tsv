@@ -301,7 +301,7 @@
 	Ask anything	ఏదైనా అడగండి
 	Ask before a document opens in Full Screen mode	పత్రం పూర్తి తెర మోడ్‌లో తెరవబడే ముందు అడగండి
 	Ask in any language	ఏ భాషలోనైనా అడగండి
-	Ask to make crocwork PDF the default PDF app	PDF ఫైళ్లకు crocwork PDFను డిఫాల్ట్ యాప్‌గా చేయాలా అని అడగండి
+	Ask to make crocwork PDF the default PDF app	PDF ఫైళ్లకు crocwork PDF డిఫాల్ట్ యాప్‌గా చేయాలా అని అడగండి
 	Ask to scan more pages	మరిన్ని పేజీలు స్కాన్ చేయాలా అని అడుగు
 	Asking the printer…	ప్రింటర్‌ను అడుగుతోంది…
 	Asking {server}…	{server}‌ను అడుగుతోంది…
@@ -515,7 +515,7 @@
 	Choose individual tools	టూల్స్‌ను ఒక్కొక్కటిగా ఎంచుకోండి
 	Choose new keys for {command}	{command} కోసం కొత్త కీలను ఎంచుకోండి
 	Choose paper by PDF page size	PDF పేజీ పరిమాణం ప్రకారం కాగితం ఎంచుకోండి
-	Choose crocwork PDF for .pdf files in Windows Settings.	Windows సెట్టింగ్‌లలో .pdf ఫైళ్ల కోసం crocwork PDFను ఎంచుకోండి.
+	Choose crocwork PDF for .pdf files in Windows Settings.	Windows సెట్టింగ్‌లలో .pdf ఫైళ్ల కోసం crocwork PDF ఎంచుకోండి.
 	Choose photo…	ఫోటో ఎంచుకోండి…
 	Choose raw file…	ముడి ఫైల్‌ను ఎంచుకోండి…
 	Choose reference…	సూచనను ఎంచుకోండి…
@@ -582,7 +582,7 @@
 	Comb of	ప్రతి అక్షరానికి ఒక గడి, మొత్తం
 	Comb of characters	అక్షరాల దువ్వెన
 	Combine files	ఫైల్‌లను కలుపు
-	Combine files in crocwork PDF…	crocwork PDFలో ఫైళ్లను కలుపు…
+	Combine files in crocwork PDF…	crocwork PDF ఫైళ్లను కలుపు…
 	Combine files…	ఫైల్‌లను కలుపు…
 	Combine the rest	మిగిలినవి కలుపు
 	Combined {n} files	{n} ఫైల్‌లు కలపబడ్డాయి
@@ -643,7 +643,7 @@
 	Convert mode	మార్పిడి మోడ్
 	Convert to	దీనికి మార్చు
 	Convert to PDF and email…	PDFగా మార్చి ఇమెయిల్ ద్వారా పంపు…
-	Convert to PDF with crocwork PDF	crocwork PDFతో PDFగా మార్చు
+	Convert to PDF with crocwork PDF	crocwork PDF PDFగా మార్చు
 	Converted from an EPUB book. Details lists how it was laid out and what was left out.	EPUB పుస్తకం నుండి మార్చబడింది. అది ఎలా అమర్చబడిందో, ఏమి వదిలివేయబడిందో వివరాలు చూపుతాయి.
 	Converted to {level} ({n} changes)	{level}కు మార్చబడింది ({n} మార్పులు)
 	Converted {c} colours and {i} pictures on {p} pages	{p} పేజీలలో {c} రంగులు మరియు {i} చిత్రాలు మార్చబడ్డాయి
@@ -1145,7 +1145,7 @@ scroll speed	Fast	వేగంగా
 	Files are combined in the order shown. Drag them to change it.	ఫైల్‌లు చూపిన క్రమంలో కలపబడతాయి. క్రమాన్ని మార్చడానికి వాటిని లాగండి.
 	Files are combined in this order. Leave Pages empty to take every page.	ఫైల్‌లు ఈ క్రమంలో కలపబడతాయి. అన్ని పేజీలను తీసుకోవడానికి పేజీలు ఫీల్డ్‌ను ఖాళీగా వదలండి.
 	Files for {name}	{name} కోసం ఫైల్‌లు
-	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	crocwork PDFలో మీరు తెరిచే ఫైల్‌లు ఇక్కడ కనిపిస్తాయి. PDFను తెరవడానికి దాన్ని ఎక్కడైనా లాగి వదలండి.
+	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	crocwork PDF మీరు తెరిచే ఫైల్‌లు ఇక్కడ కనిపిస్తాయి. PDFను తెరవడానికి దాన్ని ఎక్కడైనా లాగి వదలండి.
 	Fill & Sign	నింపడం & సంతకం
 	Fill & Sign dates	నింపడం & సంతకం తేదీలు
 	Fill & sign mode	పూరించు & సంతకం మోడ్
@@ -1312,7 +1312,7 @@ scroll speed	Fast	వేగంగా
 	Hide menu bar	మెనూ బార్‌ను దాచు
 	Hide Others	ఇతరాలను దాచు
 	Hide password	పాస్‌వర్డ్‌ను దాచు
-	Hide crocwork PDF	crocwork PDFను దాచు
+	Hide crocwork PDF	crocwork PDF దాచు
 	Hide template {name}	టెంప్లేట్ {name}ను దాచు
 	Hide toolbars	టూల్‌బార్‌లను దాచు
 	Hide window controls	విండో నియంత్రణలను దాచు
@@ -1335,7 +1335,7 @@ key	Home	Home
 	Horizontal reversed	అడ్డంగా, వ్యతిరేక దిశలో
 	How Edit text reads old fonts that don't say which letters they draw. Auto-detect recognises Hebrew fonts laid out for ISO 8859-8 or Windows-1255.	ఏ అక్షరాలను గీస్తాయో చెప్పని పాత ఫాంట్‌లను "టెక్స్ట్‌ను సవరించు" ఎలా చదువుతుందో. స్వయంచాలక గుర్తింపు ISO 8859-8 లేదా Windows-1255 ప్రకారం అమర్చిన హీబ్రూ ఫాంట్‌లను గుర్తిస్తుంది.
 	HTML web page	HTML వెబ్ పేజీ
-	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart crocwork PDF after installation.	హంగేరియన్ OCR కోసం Tesseract 5 మరియు hun భాషా మోడల్‌తో కూడిన డెస్క్‌టాప్ యాప్ అవసరం. ఇన్‌స్టాల్ చేసిన తర్వాత crocwork PDFను పునఃప్రారంభించండి.
+	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart crocwork PDF after installation.	హంగేరియన్ OCR కోసం Tesseract 5 మరియు hun భాషా మోడల్‌తో కూడిన డెస్క్‌టాప్ యాప్ అవసరం. ఇన్‌స్టాల్ చేసిన తర్వాత crocwork PDF పునఃప్రారంభించండి.
 	I confirm sending this document to this printer	ఈ పత్రాన్ని ఈ ప్రింటర్‌కు పంపడాన్ని నేను నిర్ధారిస్తున్నాను
 	I understand that the redacted content is removed for good	రెడాక్ట్ చేసిన కంటెంట్ శాశ్వతంగా తొలగించబడుతుందని నేను అర్థం చేసుకున్నాను
 	ICC profile: {name}	ICC ప్రొఫైల్: {name}
@@ -1547,7 +1547,7 @@ key	Home	Home
 	Make accessible	యాక్సెసిబుల్‌గా మార్చు
 	Make Current Properties Default	ప్రస్తుత లక్షణాలను డిఫాల్ట్‌గా చేయి
 	Make default paper size	డిఫాల్ట్ పేపర్ పరిమాణంగా చేయి
-	Make crocwork PDF your default PDF app?	PDF ఫైళ్లకు crocwork PDFను డిఫాల్ట్ యాప్‌గా చేయాలా?
+	Make crocwork PDF your default PDF app?	PDF ఫైళ్లకు crocwork PDF డిఫాల్ట్ యాప్‌గా చేయాలా?
 	Make Properties Default	లక్షణాలను డిఫాల్ట్‌గా చేయి
 	Make properties default	లక్షణాలను డిఫాల్ట్‌గా చేయి
 	Make scans searchable, then make them smaller.	స్కాన్‌లను వెతకగలిగేలా చేసి, ఆపై వాటి పరిమాణాన్ని తగ్గిస్తుంది.
@@ -2278,7 +2278,7 @@ animation effects	On	ఆన్
 	Rename…	పేరు మార్చు…
 	Rendering: hayro (bootstrap) · UI: egui · Icons: Lucide (ISC) · Fonts: Inter, JetBrains Mono, Dancing Script (OFL)	రెండరింగ్: hayro (తాత్కాలికంగా) · UI: egui · ఐకాన్‌లు: Lucide (ISC) · ఫాంట్‌లు: Inter, JetBrains Mono, Dancing Script (OFL)
 	Reopen Closed Tab	మూసివేసిన ట్యాబ్‌ను మళ్లీ తెరువు
-	Reopen the files that were open when crocwork PDF last closed	crocwork PDFను చివరిసారి మూసివేసినప్పుడు తెరిచి ఉన్న ఫైల్‌లను మళ్లీ తెరువు
+	Reopen the files that were open when crocwork PDF last closed	crocwork PDF చివరిసారి మూసివేసినప్పుడు తెరిచి ఉన్న ఫైల్‌లను మళ్లీ తెరువు
 	Repair log	మరమ్మతుల లాగ్
 	Repairs	మరమ్మతులు
 	Repeat on pages	పేజీలలో పునరావృతం చేయి
@@ -2853,7 +2853,7 @@ action wizard	Start	ప్రారంభించు
 	Text opacity	టెక్స్ట్ అపారదర్శకత
 	Text recognition cancelled. {summary}	టెక్స్ట్ గుర్తింపు రద్దు చేయబడింది. {summary}
 	Text recognition is already running	టెక్స్ట్ గుర్తింపు ఇప్పటికే అమలవుతోంది
-	Text recognition isn't installed: its model files are missing. Reinstall crocwork PDF, or set PDFCRAFT_MODELS to the folder that holds them.	టెక్స్ట్ గుర్తింపు ఇన్‌స్టాల్ కాలేదు: దాని మోడల్ ఫైల్‌లు లేవు. crocwork PDFను మళ్లీ ఇన్‌స్టాల్ చేయండి, లేదా వాటిని కలిగి ఉన్న ఫోల్డర్‌కు PDFCRAFT_MODELSను సెట్ చేయండి.
+	Text recognition isn't installed: its model files are missing. Reinstall crocwork PDF, or set PDFCRAFT_MODELS to the folder that holds them.	టెక్స్ట్ గుర్తింపు ఇన్‌స్టాల్ కాలేదు: దాని మోడల్ ఫైల్‌లు లేవు. crocwork PDF మళ్లీ ఇన్‌స్టాల్ చేయండి, లేదా వాటిని కలిగి ఉన్న ఫోల్డర్‌కు PDFCRAFT_MODELSను సెట్ చేయండి.
 	Text rendering	టెక్స్ట్ రెండరింగ్
 	Text style	వచన శైలి
 	Text to find	కనుగొనాల్సిన టెక్స్ట్
@@ -2932,8 +2932,8 @@ action wizard	Start	ప్రారంభించు
 	The image has been copied as a {ext} file	చిత్రం {ext} ఫైల్‌గా కాపీ చేయబడింది
 	the image is empty	చిత్రం ఖాళీగా ఉంది
 	The job was canceled	జాబ్ రద్దు చేయబడింది
-	The key is in the macOS Keychain, which may ask to allow crocwork PDF to use it.	కీ macOS Keychainలో ఉంది; దాన్ని ఉపయోగించడానికి crocwork PDFను అనుమతించమని Keychain అడగవచ్చు.
-	The key is in the Windows certificate store, which may ask to allow crocwork PDF to use it.	కీ Windows సర్టిఫికెట్ స్టోర్‌లో ఉంది; దాన్ని ఉపయోగించడానికి crocwork PDFను అనుమతించమని Windows అడగవచ్చు.
+	The key is in the macOS Keychain, which may ask to allow crocwork PDF to use it.	కీ macOS Keychainలో ఉంది; దాన్ని ఉపయోగించడానికి crocwork PDF అనుమతించమని Keychain అడగవచ్చు.
+	The key is in the Windows certificate store, which may ask to allow crocwork PDF to use it.	కీ Windows సర్టిఫికెట్ స్టోర్‌లో ఉంది; దాన్ని ఉపయోగించడానికి crocwork PDF అనుమతించమని Windows అడగవచ్చు.
 	The key is on the device, which may ask for its PIN itself.	కీ పరికరంలో ఉంది, అది తనంతట తానే PIN అడగవచ్చు.
 	The key is on the device, which signs once it has its PIN.	కీ పరికరంలో ఉంది, PIN అందిన తర్వాత అది సంతకం చేస్తుంది.
 	The key is on {device}, which asks for approval itself (a PIN pad, or an app on your phone).	కీ {device}లో ఉంది, అది తనే ఆమోదం అడుగుతుంది (PIN ప్యాడ్ లేదా మీ ఫోన్‌లోని యాప్).
@@ -3027,7 +3027,7 @@ action wizard	Start	ప్రారంభించు
 	the tesseract program was not found (install it, or add it to the PATH)	tesseract ప్రోగ్రామ్ కనబడలేదు (దాన్ని ఇన్‌స్టాల్ చేయండి లేదా PATH‌కు జోడించండి)
 	The tesseract program, run as an external process	బాహ్య ప్రాసెస్‌గా అమలయ్యే tesseract ప్రోగ్రామ్
 	The text is the same	టెక్స్ట్ ఒకేలా ఉంది
-	the text recognition models are not installed (reinstall crocwork PDF, or set PDFCRAFT_MODELS to the folder that holds them)	టెక్స్ట్ గుర్తింపు మోడల్‌లు ఇన్‌స్టాల్ చేయబడలేదు (crocwork PDFను మళ్లీ ఇన్‌స్టాల్ చేయండి, లేదా వాటిని కలిగి ఉన్న ఫోల్డర్‌కు PDFCRAFT_MODELSను సెట్ చేయండి)
+	the text recognition models are not installed (reinstall crocwork PDF, or set PDFCRAFT_MODELS to the folder that holds them)	టెక్స్ట్ గుర్తింపు మోడల్‌లు ఇన్‌స్టాల్ చేయబడలేదు (crocwork PDF మళ్లీ ఇన్‌స్టాల్ చేయండి, లేదా వాటిని కలిగి ఉన్న ఫోల్డర్‌కు PDFCRAFT_MODELSను సెట్ చేయండి)
 	The text reflows to the reader's screen and font size, in chapters, with the bookmarks as the contents.	పాఠ్యం పాఠకుడి స్క్రీన్‌కు, ఫాంట్ పరిమాణానికి అనుగుణంగా అధ్యాయాలుగా సర్దుకుంటుంది, బుక్‌మార్క్‌లు విషయసూచికగా ఉంటాయి.
 	The title in the metadata and the document information differ	మెటాడేటాలోని శీర్షిక, పత్రం సమాచారంలోని శీర్షిక వేర్వేరుగా ఉన్నాయి
 	the title must not be empty	శీర్షిక ఖాళీగా ఉండకూడదు
@@ -3097,12 +3097,12 @@ action wizard	Start	ప్రారంభించు
 	This file was damaged and has been repaired. Saving keeps the repaired version.	ఈ ఫైల్ పాడైంది, దాన్ని సరిచేయడం జరిగింది. సేవ్ చేస్తే సరిచేసిన వెర్షన్ ఉంచబడుతుంది.
 	This folder is too large or too deep to search all of it.	This folder is too large or too deep to search all of it.
 	This font file cannot be used. Choose a readable TTF, OTF or TTC file.	ఈ ఫాంట్ ఫైల్‌ను ఉపయోగించలేము. చదవగల TTF, OTF లేదా TTC ఫైల్‌ను ఎంచుకోండి.
-	This form also contains XFA data, which crocwork PDF doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	ఈ ఫారంలో XFA డేటా కూడా ఉంది, దాన్ని చదవడానికి crocwork PDFలో ఇంకా మద్దతు లేదు. మీరు దీని ఫీల్డ్‌లను నింపవచ్చు, కానీ Acrobat బదులుగా XFA విలువలను చూపించవచ్చు.
+	This form also contains XFA data, which crocwork PDF doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	ఈ ఫారంలో XFA డేటా కూడా ఉంది, దాన్ని చదవడానికి crocwork PDF ఇంకా మద్దతు లేదు. మీరు దీని ఫీల్డ్‌లను నింపవచ్చు, కానీ Acrobat బదులుగా XFA విలువలను చూపించవచ్చు.
 	This form's scripts are turned off because one ran too long. Reopen the document to run them again.	ఒక స్క్రిప్ట్ చాలా సేపు నడిచినందున ఈ ఫారమ్ స్క్రిప్ట్‌లు ఆపివేయబడ్డాయి. వాటిని మళ్లీ నడపడానికి పత్రాన్ని మళ్లీ తెరవండి.
 	This form's submission format or field selection is not supported yet.	ఈ ఫారమ్ పంపే ఆకృతి లేదా ఫీల్డ్ ఎంపికకు ఇంకా మద్దతు లేదు.
 	This installation is owned by a Debian package. Use your system software manager to update crocwork PDF.	ఈ ఇన్‌స్టాలేషన్ Debian ప్యాకేజీకి చెందింది. crocwork PDF‌ను నవీకరించడానికి మీ సిస్టమ్ సాఫ్ట్‌వేర్ మేనేజర్‌ను ఉపయోగించండి.
 	This installation is owned by an RPM package. Use your system software manager to update crocwork PDF.	ఈ ఇన్‌స్టాలేషన్ RPM ప్యాకేజీకి చెందింది. crocwork PDF‌ను నవీకరించడానికి మీ సిస్టమ్ సాఫ్ట్‌వేర్ మేనేజర్‌ను ఉపయోగించండి.
-	This is a dynamic XFA form, which crocwork PDF can't display yet. What you see is the file's placeholder page.	ఇది డైనమిక్ XFA ఫారం, దీన్ని ప్రదర్శించడానికి crocwork PDFలో ఇంకా మద్దతు లేదు. మీరు చూస్తున్నది ఫైల్‌లోని ప్లేస్‌హోల్డర్ పేజీ.
+	This is a dynamic XFA form, which crocwork PDF can't display yet. What you see is the file's placeholder page.	ఇది డైనమిక్ XFA ఫారం, దీన్ని ప్రదర్శించడానికి crocwork PDF ఇంకా మద్దతు లేదు. మీరు చూస్తున్నది ఫైల్‌లోని ప్లేస్‌హోల్డర్ పేజీ.
 	This is a picture of a signature, not a digital signature: only the mark on the page goes. The original file is kept as it is.	ఇది సంతకం యొక్క చిత్రం, డిజిటల్ సంతకం కాదు: పేజీపై ఉన్న గుర్తు మాత్రమే తొలగించబడుతుంది. అసలు ఫైల్ అలాగే ఉంటుంది.
 	This is the first PDF in its folder	ఇది దాని ఫోల్డర్‌లోని మొదటి PDF
 	This is the last PDF in its folder	ఇది దాని ఫోల్డర్‌లోని చివరి PDF
@@ -3310,7 +3310,7 @@ signature pad	Type	టైప్ చేయి
 	Waiting in the printer's queue	ప్రింటర్ క్యూలో వేచి ఉంది
 	watermark	వాటర్‌మార్క్
 	Weak	బలహీనమైనది
-	Welcome to crocwork PDF	crocwork PDFకు స్వాగతం
+	Welcome to crocwork PDF	crocwork PDF స్వాగతం
 	What must go, and what the document is	ఏమి తప్పనిసరిగా తొలగించాలి, పత్రం ఏమిటి
 	What takes up the space in this file, by kind of content.	ఈ ఫైల్‌లో స్థలాన్ని ఏవి ఆక్రమిస్తున్నాయి, కంటెంట్ రకం వారీగా.
 	What word or phrase would you like to search for?	మీరు ఏ పదం లేదా పదబంధం కోసం వెతకాలనుకుంటున్నారు?

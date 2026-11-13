@@ -82,7 +82,7 @@
 	A stream uses LZW compression	Egy adatfolyam LZW-tömörítést használ
 	A summary describes the table's purpose and layout. Add a Summary attribute to each table.	Az összefoglaló leírja a táblázat célját és elrendezését. Adj minden táblázathoz Summary attribútumot.
 	A table that runs across pages stays together; the pages follow one another down the sheet.	A több oldalon átnyúló táblázat egyben marad; az oldalak egymás alatt következnek a munkalapon.
-	About crocwork PDF	A PdfCraftról
+	About crocwork PDF	A crocwork PDF
 	About {app}	A(z) {app} névjegye
 	about {h} h {m} min left	kb. {h} óra {m} perc van hátra
 	about {n} min left	kb. {n} perc van hátra
@@ -604,7 +604,7 @@
 	Comb of characters	Karakterfésű
 	Combine	Egyesítés
 	Combine files	Fájlok egyesítése
-	Combine files in crocwork PDF…	Fájlok egyesítése a PdfCraftban…
+	Combine files in crocwork PDF…	Fájlok egyesítése a crocwork PDF…
 	Combine files…	Fájlok egyesítése…
 	Combine the rest	A többi egyesítése
 	Combined {n} files	{n} fájl egyesítve
@@ -667,7 +667,7 @@
 	Convert mode	Átalakítási mód
 	Convert to	Átalakítás erre
 	Convert to PDF and email…	Átalakítás PDF-fé és küldés e-mailben…
-	Convert to PDF with crocwork PDF	Átalakítás PDF-fé a PdfCrafttal
+	Convert to PDF with crocwork PDF	Átalakítás PDF-fé a crocwork PDF
 	Converted from an EPUB book. Details lists how it was laid out and what was left out.	EPUB-könyvből átalakítva. A Részletek megmutatják, hogyan lett tördelve, és mi maradt ki.
 	Converted to {level} ({n} changes)	Átalakítva erre: {level} ({n} módosítás)
 	Converted {c} colours and {i} pictures on {p} pages	{c} szín és {i} kép átalakítva {p} oldalon
@@ -1187,7 +1187,7 @@ scroll speed	Fast	Gyors
 	Files are combined in the order shown. Drag them to change it.	A fájlok a látható sorrendben egyesülnek. Húzd őket a sorrend módosításához.
 	Files are combined in this order. Leave Pages empty to take every page.	A fájlok ebben a sorrendben egyesülnek. Hagyd üresen az Oldalak mezőt, ha minden oldalt kéred.
 	Files for {name}	Fájlok ehhez: {name}
-	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	A PdfCraftban megnyitott fájlok itt jelennek meg. Húzz ide egy PDF-et a megnyitáshoz.
+	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	A crocwork PDF megnyitott fájlok itt jelennek meg. Húzz ide egy PDF-et a megnyitáshoz.
 	Fill & Sign	Kitöltés és aláírás
 	Fill & Sign dates	Kitöltés és aláírás dátumai
 	Fill & sign mode	Kitöltés és aláírás mód
@@ -1387,7 +1387,7 @@ key	Home	Home
 	Horizontal scale	Vízszintes méretezés
 	How Edit text reads old fonts that don't say which letters they draw. Auto-detect recognises Hebrew fonts laid out for ISO 8859-8 or Windows-1255.	Hogyan olvassa a Szöveg szerkesztése a régi betűtípusokat, amelyek nem adják meg, milyen betűket rajzolnak. Az automatikus felismerés az ISO 8859-8 vagy Windows-1255 szerint felépített héber betűtípusokat ismeri fel.
 	HTML web page	HTML-weboldal
-	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart crocwork PDF after installation.	A magyar OCR-hez az asztali alkalmazás, a Tesseract 5 és a hun nyelvi modell szükséges. Telepítés után indítsd újra a PdfCraftot.
+	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart crocwork PDF after installation.	A magyar OCR-hez az asztali alkalmazás, a Tesseract 5 és a hun nyelvi modell szükséges. Telepítés után indítsd újra a crocwork PDF.
 	I confirm sending this document to this printer	Megerősítem, hogy ezt a dokumentumot erre a nyomtatóra küldöm
 	I understand that the redacted content is removed for good	Megértem, hogy a kitakart tartalom véglegesen eltávolításra kerül
 	ICC profile: {name}	ICC-profil: {name}
@@ -2056,7 +2056,7 @@ animation effects	On	Be
 	Pages selected	Kijelölt oldalak
 	Pages that are only pictures of text can't be read aloud or searched. Recognize text (OCR) to add a text layer.	A csak szöveg képéből álló oldalak nem olvashatók fel, és nem kereshetők. Futtass szövegfelismerést (OCR), hogy szöveges réteg kerüljön rájuk.
 	Pages that couldn't be read: {n}	Pages that couldn't be read: {n}
-	Pages that use Type 3 fonts print as images, because Windows can close crocwork PDF while printing them. The other pages print as usual.	A Type 3 betűtípust használó oldalak képként nyomtatódnak, mert a Windows bezárhatja a PdfCraftot a nyomtatásuk közben. A többi oldal a szokásos módon nyomtatódik.
+	Pages that use Type 3 fonts print as images, because Windows can close crocwork PDF while printing them. The other pages print as usual.	A Type 3 betűtípust használó oldalak képként nyomtatódnak, mert a Windows bezárhatja a crocwork PDF a nyomtatásuk közben. A többi oldal a szokásos módon nyomtatódik.
 	Pages to Print	Nyomtatandó oldalak
 	Pages whose text couldn't be read: {n}. A match on them isn't listed.	Oldalak, amelyek szövegét nem sikerült beolvasni: {n}. Az ezeken lévő találatok nem szerepelnek a listában.
 	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	A hivatkozásokat, megjegyzéseket vagy mezőket tartalmazó oldalakon a tab-sorrend kövesse a szerkezetet. A javítás minden oldal tab-sorrendjét a dokumentumszerkezetre állítja.
@@ -2237,7 +2237,7 @@ animation effects	On	Be
 	Query the printer first to see what it supports.	Először kérdezd le a nyomtatót, hogy lásd, mit támogat.
 	Quirks	Sajátosságok
 	Quit	Kilépés
-	Quit crocwork PDF	Kilépés a PdfCraftból
+	Quit crocwork PDF	Kilépés a crocwork PDF
 	Quit {app}	Kilépés a következőből: {app}
 	Radio	Választógomb
 	Radio button	Választógomb
@@ -3005,7 +3005,7 @@ action wizard	Start	Indítás
 	Text opacity	Szöveg átlátszatlansága
 	Text recognition cancelled. {summary}	A szövegfelismerés megszakítva. {summary}
 	Text recognition is already running	A szövegfelismerés már fut
-	Text recognition isn't installed: its model files are missing. Reinstall crocwork PDF, or set PDFCRAFT_MODELS to the folder that holds them.	A szövegfelismerés nincs telepítve: hiányoznak a modellfájljai. Telepítsd újra a PdfCraftot, vagy állítsd a PDFCRAFT_MODELS változót az őket tartalmazó mappára.
+	Text recognition isn't installed: its model files are missing. Reinstall crocwork PDF, or set PDFCRAFT_MODELS to the folder that holds them.	A szövegfelismerés nincs telepítve: hiányoznak a modellfájljai. Telepítsd újra a crocwork PDF, vagy állítsd a PDFCRAFT_MODELS változót az őket tartalmazó mappára.
 	Text rendering	Szövegmegjelenítés
 	Text style	Szövegstílus
 	Text to find	Keresett szöveg
@@ -3092,8 +3092,8 @@ action wizard	Start	Indítás
 	The image has been copied as a {ext} file	A kép {ext}-fájlként a vágólapra került
 	the image is empty	a kép üres
 	The job was canceled	A feladat megszakítva
-	The key is in the macOS Keychain, which may ask to allow crocwork PDF to use it.	A kulcs a macOS Kulcskarikában van, amely megkérdezheti, engedélyezed-e a PdfCraftnak a használatát.
-	The key is in the Windows certificate store, which may ask to allow crocwork PDF to use it.	A kulcs a Windows tanúsítványtárolójában van, amely megkérdezheti, engedélyezed-e a PdfCraftnak a használatát.
+	The key is in the macOS Keychain, which may ask to allow crocwork PDF to use it.	A kulcs a macOS Kulcskarikában van, amely megkérdezheti, engedélyezed-e a crocwork PDF a használatát.
+	The key is in the Windows certificate store, which may ask to allow crocwork PDF to use it.	A kulcs a Windows tanúsítványtárolójában van, amely megkérdezheti, engedélyezed-e a crocwork PDF a használatát.
 	The key is on the device, which may ask for its PIN itself.	A kulcs az eszközön van, amely maga is kérheti a PIN-kódját.
 	The key is on the device, which signs once it has its PIN.	A kulcs az eszközön van, amely a PIN-kód megadása után ír alá.
 	The key is on {device}, which asks for approval itself (a PIN pad, or an app on your phone).	A kulcs a(z) {device} eszközön van, amely maga kér jóváhagyást (PIN-billentyűzet vagy alkalmazás a telefonján).
@@ -3203,7 +3203,7 @@ action wizard	Start	Indítás
 	the tesseract program was not found (install it, or add it to the PATH)	a tesseract program nem található (telepítse, vagy vegye fel a PATH-ba)
 	The tesseract program, run as an external process	A tesseract program, külső folyamatként futtatva
 	The text is the same	A szöveg azonos
-	the text recognition models are not installed (reinstall crocwork PDF, or set PDFCRAFT_MODELS to the folder that holds them)	a szövegfelismerés modelljei nincsenek telepítve (telepítsd újra a PdfCraftot, vagy állítsd a PDFCRAFT_MODELS változót az őket tartalmazó mappára)
+	the text recognition models are not installed (reinstall crocwork PDF, or set PDFCRAFT_MODELS to the folder that holds them)	a szövegfelismerés modelljei nincsenek telepítve (telepítsd újra a crocwork PDF, vagy állítsd a PDFCRAFT_MODELS változót az őket tartalmazó mappára)
 	The text reflows to the reader's screen and font size, in chapters, with the bookmarks as the contents.	A szöveg az olvasó képernyőjéhez és betűméretéhez igazodik, fejezetekre bontva, a könyvjelzőkkel mint tartalomjegyzékkel.
 	The title in the metadata and the document information differ	A metaadatokban és a dokumentumadatokban lévő cím eltér
 	the title must not be empty	a cím nem lehet üres
@@ -3507,7 +3507,7 @@ signature pad	Type	Gépelés
 	Warning	Warning
 	watermark	vízjel
 	Weak	Gyenge
-	Welcome to crocwork PDF	Üdvözöljük a PdfCraftban
+	Welcome to crocwork PDF	Üdvözöljük a crocwork PDF
 	What must go, and what the document is	Mi tűnjön el, és mi a dokumentum
 	What takes up the space in this file, by kind of content.	Mi foglalja a helyet ebben a fájlban, tartalomtípusonként.
 	What word or phrase would you like to search for?	Melyik szót vagy kifejezést keresed?
@@ -3550,7 +3550,7 @@ document scrollbar width	Wide	Széles
 	You choose where the new version is saved. Continue?	Ön választja ki, hová kerüljön az új változat. Folytatja?
 	You have version {c}. Download the new version from its release page.	A jelenlegi verzió: {c}. Töltsd le az újat a kiadási oldaláról.
 	Your changes will be lost if you don't save them.	A módosításaid elvesznek, ha nem mented őket.
-	Your default email app can't take a file from crocwork PDF.	Az alapértelmezett e-mail alkalmazásod nem tud fájlt fogadni a PdfCraftból.
+	Your default email app can't take a file from crocwork PDF.	Az alapértelmezett e-mail alkalmazásod nem tud fájlt fogadni a crocwork PDF.
 	Your email app couldn't log on to your mailbox.	Az e-mail alkalmazásod nem tudott bejelentkezni a postafiókodba.
 	Your email app didn't open a message in time.	Az e-mail alkalmazásod nem nyitott meg időben üzenetet.
 	Your email app didn't open a message. It said: {why}.	Az e-mail alkalmazásod nem nyitott meg üzenetet. Ezt írta: {why}.
@@ -3653,7 +3653,7 @@ document scrollbar width	Wide	Széles
 	{n} word(s) or phrase(s)	{n} szó vagy kifejezés
 	{n} word(s) to review	{n} ellenőrizendő szó
 	{n} {kind}	{n} {kind}
-	{program} can't take a file from crocwork PDF.	A(z) {program} nem tud fájlt fogadni a PdfCraftból.
+	{program} can't take a file from crocwork PDF.	A(z) {program} nem tud fájlt fogadni a crocwork PDF.
 	{rule} - {status}	{rule} – {status}
 	{signers} signers; details of the first are shown	{signers} aláíró; az első részletei jelennek meg
 	{s} action	{s} művelet

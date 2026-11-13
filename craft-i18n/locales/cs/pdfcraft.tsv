@@ -1307,7 +1307,7 @@ calendar date	February	února
 	Files are combined in the order shown. Drag them to change it.	Soubory se slučují v zobrazeném pořadí. Pořadí změníte přetažením.
 	Files are combined in this order. Leave Pages empty to take every page.	Soubory se slučují v tomto pořadí. Ponecháte-li Stránky prázdné, použijí se všechny stránky.
 	Files for {name}	Soubory pro {name}
-	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	Zde se zobrazí soubory, které otevřete v PdfCraftu. Soubor PDF otevřete přetažením kamkoli do okna.
+	Files you open in crocwork PDF appear here. Drop a PDF anywhere to open it.	Zde se zobrazí soubory, které otevřete v crocwork PDF. Soubor PDF otevřete přetažením kamkoli do okna.
 	Fill	Vyplnění
 	Fill & Sign	Vyplnit a podepsat
 	Fill & Sign dates	Datum pro Vyplnit a podepsat
@@ -3350,7 +3350,7 @@ calendar weekday	Th	Čt
 	The default optional content configuration (D) has no Name	Výchozí konfigurace volitelného obsahu (D) nemá Name
 	The desktop portal's file chooser isn't running ({packages}). Check it with systemctl --user status {first}, or log out and back in.	Výběr souborů portálu pracovní plochy neběží ({packages}). Zkontrolujte jej příkazem systemctl --user status {first}, nebo se odhlaste a znovu přihlaste.
 	The device's digital ID isn't available any more; start signing again to list it.	Digitální ID zařízení už není k dispozici; začněte podepisovat znovu, aby se zobrazilo.
-	The Dock shows it the next time crocwork PDF opens.	Dock ji zobrazí při příštím otevření PdfCraftu.
+	The Dock shows it the next time crocwork PDF opens.	Dock ji zobrazí při příštím otevření crocwork PDF.
 	The document can't be converted: {}	Dokument nelze převést: {}
 	The document changed while it was being signed, so the signature wasn't saved.	Dokument se během podepisování změnil, proto podpis nebyl uložen.
 	The document changed while its margins were measured; nothing was cropped	Dokument se změnil během měření okrajů; nic nebylo oříznuto
@@ -3440,8 +3440,8 @@ calendar weekday	Th	Čt
 	The image has been copied as a {ext} file	Obrázek byl zkopírován jako soubor {ext}
 	the image is empty	obrázek je prázdný
 	The job was canceled	Úloha byla zrušena
-	The key is in the macOS Keychain, which may ask to allow crocwork PDF to use it.	Klíč je v Klíčence systému macOS, která se může zeptat, zda PdfCraftu povolit jeho použití.
-	The key is in the Windows certificate store, which may ask to allow crocwork PDF to use it.	Klíč je v úložišti certifikátů Windows, které se může zeptat, zda PdfCraftu povolit jeho použití.
+	The key is in the macOS Keychain, which may ask to allow crocwork PDF to use it.	Klíč je v Klíčence systému macOS, která se může zeptat, zda crocwork PDF povolit jeho použití.
+	The key is in the Windows certificate store, which may ask to allow crocwork PDF to use it.	Klíč je v úložišti certifikátů Windows, které se může zeptat, zda crocwork PDF povolit jeho použití.
 	The key is on the device, which may ask for its PIN itself.	Klíč je na zařízení, které si může o PIN říct samo.
 	The key is on the device, which signs once it has its PIN.	Klíč je na zařízení, které podepíše, jakmile dostane PIN.
 	The key is on {device}, which asks for approval itself (a PIN pad, or an app on your phone).	Klíč je v zařízení {device}, které si samo vyžádá schválení (klávesnice pro PIN nebo aplikace v telefonu).
