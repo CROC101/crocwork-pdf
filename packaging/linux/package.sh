@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build and package PdfCraft for Linux (<arch> is x86_64 or aarch64, or riscv64 when cross-compiling):
+# Build and package crocwork PDF for Linux (<arch> is x86_64 or aarch64, or riscv64 when cross-compiling):
 #
 #   $DIST/pdfcraft-<version>-linux-<arch>.AppImage  any distro with glibc >= the build host's
 #   $DIST/pdfcraft-<version>-linux-<arch>.AppImage.zsync  delta updates (needs zsyncmake)
@@ -46,11 +46,11 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export PDFCRAFT_MAINTAINER="${PDFCRAFT_MAINTAINER:-PdfCraft maintainers <pdfcraft@storyteller.ai>}"
+export PDFCRAFT_MAINTAINER="${PDFCRAFT_MAINTAINER:-crocwork PDF maintainers <pdfcraft@storyteller.ai>}"
 LABEL_SUFFIX="${PDFCRAFT_BUILD_LABEL:+-$PDFCRAFT_BUILD_LABEL}"
 BASENAME="pdfcraft-$VERSION$LABEL_SUFFIX-linux-$ARCH"
 
-echo "==> PdfCraft $VERSION$LABEL_SUFFIX for Linux $ARCH ($FORMATS)"
+echo "==> crocwork PDF $VERSION$LABEL_SUFFIX for Linux $ARCH ($FORMATS)"
 
 if [[ "$SKIP_BUILD" = 0 ]]; then
   if [[ -n "${CROSS_TARGET:-}" ]]; then
@@ -151,7 +151,7 @@ if has appimage; then
     echo "no pinned AppImage runtime for $ARCH; build the AppImage on x86_64 or aarch64" >&2
     exit 2
   fi
-  APPDIR="$WORK/PdfCraft.AppDir"
+  APPDIR="$WORK/crocwork PDF.AppDir"
   cp -R "$STAGE" "$APPDIR"
   ln -s usr/bin/pdfcraft "$APPDIR/AppRun"
   cp "$HERE/$APP_ID.desktop" "$APPDIR/$APP_ID.desktop"

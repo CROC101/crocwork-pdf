@@ -545,7 +545,7 @@ fn unreadable_appearances_are_skipped_recorded_and_drawn_again() {
         assert_eq!(report.comments, 1, "{why}: the comment itself is imported");
         assert_eq!(report.skipped.len(), 1, "{why}: {:?}", report.skipped);
         assert!(report.skipped[0].starts_with("x: "), "{why}: {:?}", report.skipped);
-        // PdfCraft draws the square from its own entries instead.
+        // crocwork PDF draws the square from its own entries instead.
         let d = named(&dst, "x");
         let n = sub_dict(&dst, &d, b"AP").get(b"N").map(|o| dst.resolve(o));
         assert!(matches!(n.as_deref(), Some(Object::Stream(_))), "{why}: drawn again");
@@ -1007,7 +1007,7 @@ fn rich_text_keeps_the_namespaces_it_inherits() {
     );
 }
 
-/// A redaction mark is drawn by PdfCraft whatever the file says: a cloudy border (which a
+/// A redaction mark is drawn by crocwork PDF whatever the file says: a cloudy border (which a
 /// redaction has none of) or text the standard fonts can't draw left the file's blank appearance
 /// in place, and the mark removed content nobody saw marked.
 #[test]

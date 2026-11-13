@@ -73,7 +73,7 @@ impl Skippable for Array<'_> {
         r.forward_tag(b"[")?;
         r.enter_container()?;
 
-        // PdfCraft patch: leave even when an element's skip fails through `?`.
+        // crocwork PDF patch: leave even when an element's skip fails through `?`.
         let result = (|| loop {
             r.skip_white_spaces_and_comments();
 
@@ -129,7 +129,7 @@ impl<'a> Iterator for ArrayIter<'a> {
         self.reader.skip_white_spaces_and_comments();
 
         if !self.reader.at_end() {
-            // PdfCraft patch (46): the first pass validated each item by skipping it, but a lone
+            // crocwork PDF patch (46): the first pass validated each item by skipping it, but a lone
             // sign (`+`, `++`) is skipped as a number and no number is read from it. Such an item
             // reads as null in its slot instead of unwrapping the failed read.
             let start = self.reader.clone();
@@ -147,7 +147,7 @@ impl<'a> Iterator for ArrayIter<'a> {
     }
 }
 
-/// PdfCraft patch (46): step over an array item at `start` that the first pass skipped but no
+/// crocwork PDF patch (46): step over an array item at `start` that the first pass skipped but no
 /// object is read from. `None` (end the iteration) if it can't be skipped or the skip makes no
 /// progress, so a caller never loops.
 fn skip_unreadable_item<'a>(mut start: Reader<'a>, ctx: &ReaderContext<'a>) -> Option<Reader<'a>> {
@@ -210,7 +210,7 @@ impl<'a> FlexArrayIter<'a> {
         self.reader.skip_white_spaces_and_comments();
 
         if !self.reader.at_end() {
-            // PdfCraft patch (32): its items each follow a reference. Read as one that might be, a
+            // crocwork PDF patch (32): its items each follow a reference. Read as one that might be, a
             // reference at the start was taken for the whole group, which it can't be, and lost.
             if T::GROUP {
                 return self.reader.read_with_context::<T>(&self.ctx);
@@ -220,7 +220,7 @@ impl<'a> FlexArrayIter<'a> {
             return match self.reader.read_with_context::<MaybeRef<T>>(&self.ctx) {
                 Some(MaybeRef::Ref(r)) => self.ctx.xref().get_with::<T>(r.into(), &self.ctx),
                 Some(MaybeRef::NotRef(i)) => Some(i),
-                // PdfCraft patch (46): an item no object is read from (a lone sign such as `+`)
+                // crocwork PDF patch (46): an item no object is read from (a lone sign such as `+`)
                 // reads as null in its slot, as in `raw_iter`, instead of ending the iteration
                 // and losing the items after it. An object of another type still ends it. The
                 // slot is passed only when null is a `T`: a typed read that fails leaves it in

@@ -1,5 +1,5 @@
 //! Community links: the Discord button is one click away everywhere; Help menu, About dialog and
-//! home screen open the ArtCraft and PdfCraft pages.
+//! home screen open the crocwork and crocwork PDF pages.
 
 use egui_kittest::Harness;
 use egui_kittest::kittest::Queryable;
@@ -23,19 +23,19 @@ fn discord_button_in_the_top_bar_opens_discord() {
     h.get_by_label("Discord").click();
     h.run_steps(2);
     assert_eq!(h.state().last_opened_url.as_deref(), Some(links::DISCORD));
-    assert_eq!(links::DISCORD, "https://discord.gg/artcraft");
+    assert_eq!(links::DISCORD, "https://github.com/CROC101/crocwork-pdf");
 }
 
 #[test]
 fn home_screen_links() {
     for (label, url) in [
         ("Join our Discord", links::DISCORD),
-        ("PdfCraft web page", "https://getartcraft.com/apps/pdfcraft"),
-        ("PdfCraft on GitHub", "https://github.com/storytold/pdfcraft"),
-        ("ArtCraft website", "https://getartcraft.com"),
+        ("crocwork PDF web page", "https://github.com/CROC101/crocwork-pdf"),
+        ("crocwork PDF on GitHub", "https://github.com/CROC101/crocwork-pdf"),
+        ("crocwork website", "https://github.com/CROC101/crocwork-pdf"),
     ] {
         let mut h = harness(|_| {});
-        h.get_by_label("Join the ArtCraft community");
+        h.get_by_label("Join the crocwork community");
         h.get_by_label(label).click();
         h.run_steps(2);
         assert_eq!(h.state().last_opened_url.as_deref(), Some(url), "{label}");
@@ -45,11 +45,11 @@ fn home_screen_links() {
 #[test]
 fn home_community_card_closes_for_this_run() {
     let mut h = harness(|_| {});
-    h.get_by_label("Join the ArtCraft community");
+    h.get_by_label("Join the crocwork community");
     h.get_by_label("Close").click();
     h.run_steps(2);
     assert!(h.state().community_card_closed);
-    assert!(h.query_by_label("Join the ArtCraft community").is_none());
+    assert!(h.query_by_label("Join the crocwork community").is_none());
     assert!(h.query_by_label("Join our Discord").is_none());
     // Not remembered: a fresh app shows the card again.
     assert!(!PdfCraftApp::new().community_card_closed);
@@ -63,7 +63,7 @@ fn about_dialog_shows_the_brand_and_links() {
         app.open_bytes("one.pdf", None, pdf.to_vec()).unwrap();
         app.dialog = Some(Dialog::About);
     });
-    assert!(h.query_all_by_label("ArtCraft").count() >= 2, "the mark and the wordmark (alt text)");
+    assert!(h.query_all_by_label("crocwork").count() >= 2, "the mark and the wordmark (alt text)");
     h.get_by_label("Join our Discord").click();
     h.run_steps(2);
     assert_eq!(h.state().last_opened_url.as_deref(), Some(links::DISCORD));

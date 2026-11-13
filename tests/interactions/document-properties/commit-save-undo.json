@@ -27,7 +27,7 @@
       "expect": {"error": null}
     },
     {
-      "event": {"op": "type", "field": "Value:", "value": "PdfCraft"},
+      "event": {"op": "type", "field": "Value:", "value": "crocwork PDF"},
       "expect": {"error": null}
     },
     {

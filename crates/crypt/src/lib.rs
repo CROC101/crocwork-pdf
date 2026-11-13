@@ -355,7 +355,7 @@ impl SecurityHandler {
     /// with a 40- or 48-bit key (pdf.js issue 19484). The renderer's `hayro-syntax` reads them
     /// the same way, so a page it shows is one this crate can read and save. AES-128 keys are
     /// left as they are: `AESV2` takes a 128-bit key (Table 25), and Acrobat's extension is only
-    /// seen with RC4. Every key PdfCraft writes under `/V 4` is 16 bytes already.
+    /// seen with RC4. Every key crocwork PDF writes under `/V 4` is 16 bytes already.
     fn object_key(&self, method: Method, num: u32, generation: u16) -> Zeroizing<Vec<u8>> {
         if method == Method::Aes256 {
             return self.key.clone();

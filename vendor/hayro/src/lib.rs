@@ -60,15 +60,15 @@ use vello_cpu::color::palette::css::WHITE;
 use vello_cpu::{Level, Pixmap, RenderMode};
 
 mod renderer;
-/// PdfCraft patch: exported for its regression test.
+/// crocwork PDF patch: exported for its regression test.
 pub use renderer::{image_resampling_size, tiling_cell_pixels, tiling_cell_scale, usable_cell_scale};
-/// PdfCraft patch: exported for its regression test.
+/// crocwork PDF patch: exported for its regression test.
 #[doc(hidden)]
 pub use renderer::set_skip_offscreen_paths;
-/// PdfCraft patch (27): exported for its regression test.
+/// crocwork PDF patch (27): exported for its regression test.
 #[doc(hidden)]
 pub use renderer::set_cmyk_band_pixels;
-/// PdfCraft patch (30): exported for its regression tests.
+/// crocwork PDF patch (30): exported for its regression tests.
 #[doc(hidden)]
 pub use renderer::{OffscreenDraws, offscreen_draws};
 
@@ -92,7 +92,7 @@ impl<'a> RenderCache<'a> {
     }
 }
 
-/// PdfCraft patch: replacement colours for the "reading colours" view setting (Acrobat's
+/// crocwork PDF patch: replacement colours for the "reading colours" view setting (Acrobat's
 /// "Replace Document Colors"). Solid paints are mapped by luminance: dark paints move towards
 /// `text`, light paints towards `background`. Images, shadings and patterns never pass through
 /// the mapping.
@@ -155,15 +155,15 @@ pub struct RenderSettings {
     /// The background color. Determines the color of the base
     /// rectangle during rendering to a pixmap.
     pub bg_color: AlphaColor<Srgb>,
-    /// PdfCraft patch: top-left corner of the rendered region, in device pixels of the scaled
+    /// crocwork PDF patch: top-left corner of the rendered region, in device pixels of the scaled
     /// page. Together with `width`/`height` this renders one tile of a large page.
     pub x_offset: f32,
     /// See `x_offset`.
     pub y_offset: f32,
-    /// PdfCraft patch: when set, solid text and line-art paint colours are remapped while
+    /// crocwork PDF patch: when set, solid text and line-art paint colours are remapped while
     /// rendering; `None` renders exactly as without the patch.
     pub color_replacement: Option<ColorReplacement>,
-    /// PdfCraft patch (31): the most coverage values the rasterizer keeps for the page; paths
+    /// crocwork PDF patch (31): the most coverage values the rasterizer keeps for the page; paths
     /// past it are left out, with `InterpreterWarning::ContentTruncated`. `None` keeps as many
     /// as a strip's index reaches (2^31).
     pub max_coverage: Option<usize>,
@@ -204,7 +204,7 @@ pub fn render<'a>(
     pixmap
 }
 
-/// PdfCraft patch: the size in pixels of what [`render`] produces with these settings.
+/// crocwork PDF patch: the size in pixels of what [`render`] produces with these settings.
 pub fn render_size(page: &Page<'_>, render_settings: &RenderSettings) -> (u16, u16) {
     let (width, height) = page.render_dimensions();
     let (scaled_width, scaled_height) = (
@@ -219,7 +219,7 @@ pub fn render_size(page: &Page<'_>, render_settings: &RenderSettings) -> (u16, u
     )
 }
 
-/// PdfCraft patch: [`render`] into `buffer`, premultiplied RGBA8 rows of [`render_size`]
+/// crocwork PDF patch: [`render`] into `buffer`, premultiplied RGBA8 rows of [`render_size`]
 /// pixels, so the caller chooses the allocation (one aligned to whole pixels can then become
 /// texture data without a copy). `buffer.len()` must be width × height × 4; any other length
 /// leaves `buffer` untouched (vello_cpu asserts on the length, and a panic must not be reachable).
@@ -269,7 +269,7 @@ pub fn render_into<'a>(
         device.ctx.set_max_coverage(max);
     }
 
-    // PdfCraft patch (18): the page renders as one transparency group (the page group). Its
+    // crocwork PDF patch (18): the page renders as one transparency group (the page group). Its
     // objects composite with an initially transparent backdrop, and the group is then put on
     // the paper (ISO 32000-2, page group), so a blend mode only blends where something was
     // drawn: a /BM /Screen fill over an empty part of the page keeps its colour (#2970).
@@ -299,7 +299,7 @@ pub fn render_into<'a>(
     }
 
     interpret_page(page, &mut state, &mut device);
-    // PdfCraft patch (31): what the rasterizer left out once its coverage was full (a page that
+    // crocwork PDF patch (31): what the rasterizer left out once its coverage was full (a page that
     // paints the same content millions of times over) is content left out, said as such.
     if device.ctx.coverage_full() {
         (interpreter_settings.warning_sink)(hayro_interpret::InterpreterWarning::ContentTruncated);
@@ -369,7 +369,7 @@ pub(crate) fn derive_settings(settings: &vello_cpu::RenderSettings) -> vello_cpu
     }
 }
 
-// PdfCraft patch: unit tests for the reading-colours mapping.
+// crocwork PDF patch: unit tests for the reading-colours mapping.
 #[cfg(test)]
 mod color_replacement_tests {
     use super::ColorReplacement;
@@ -439,7 +439,7 @@ mod color_replacement_tests {
     }
 }
 
-// PdfCraft patch: end-to-end test for the reading-colours renderer hook.
+// crocwork PDF patch: end-to-end test for the reading-colours renderer hook.
 #[cfg(test)]
 mod color_replacement_render_tests {
     use super::{ColorReplacement, InterpreterSettings, Pdf, Pixmap, render_pdf};
@@ -709,7 +709,7 @@ mod color_replacement_render_tests {
     }
 }
 
-/// PdfCraft patch (19): a mesh shading paints its triangles alone (`EncodedShadingPattern::extent`),
+/// crocwork PDF patch (19): a mesh shading paints its triangles alone (`EncodedShadingPattern::extent`),
 /// and one with no triangle on the canvas paints nothing.
 #[cfg(test)]
 mod mesh_extent_tests {

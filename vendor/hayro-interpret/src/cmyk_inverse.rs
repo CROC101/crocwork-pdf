@@ -1,4 +1,4 @@
-//! PdfCraft patch (104): an sRGB colour as the process ink that draws back to it through the
+//! crocwork PDF patch (104): an sRGB colour as the process ink that draws back to it through the
 //! CMYK profile pages are drawn with, for an additive colour painted into a `DeviceCMYK`
 //! blending space (ISO 32000-2 §11.3.4).
 //!

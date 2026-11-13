@@ -100,7 +100,7 @@ impl<'a> Dict<'a> {
     pub fn entries(&self) -> impl Iterator<Item = (Name<'a>, MaybeRef<Object<'a>>)> + '_ {
         let mut sorted_keys = self.keys().collect::<Vec<_>>();
         sorted_keys.sort_by(|n1, n2| n1.as_ref().cmp(n2.as_ref()));
-        // PdfCraft patch (46): an entry whose value the first pass skipped but no object is read
+        // crocwork PDF patch (46): an entry whose value the first pass skipped but no object is read
         // from (a lone sign such as `+` or `++`) is left out, as `get` leaves it unread, rather
         // than unwrapping the failed read.
         sorted_keys.into_iter().filter_map(|k| {
@@ -136,7 +136,7 @@ impl<'a> Dict<'a> {
         match &self.0 {
             Inner::Empty => None,
             Inner::Some(repr) => Some(repr.offsets.get_or_init(|| {
-                // PdfCraft patch: (#307) large resource dictionaries are read for every
+                // crocwork PDF patch: (#307) large resource dictionaries are read for every
                 // page at open, but most are never looked up. Index them only on demand.
                 // The first pass already validated the same immutable bytes with this
                 // context. Keep the same parser, including duplicate-key and repair rules.
@@ -166,7 +166,7 @@ impl Debug for Dict<'_> {
 
             for (key, val) in offsets {
                 r.jump(*val);
-                // PdfCraft patch (46): an entry no object is read from is left out, as in
+                // crocwork PDF patch (46): an entry no object is read from is left out, as in
                 // `entries`, instead of unwrapping the failed read.
                 if let Some(value) =
                     r.read_with_context::<MaybeRef<Object<'_>>>(&ReaderContext::dummy())
@@ -184,7 +184,7 @@ impl Skippable for Dict<'_> {
         r.forward_tag(b"<<")?;
         r.enter_container()?;
 
-        // PdfCraft patch: leave even when a value or garbage fails through `?`.
+        // crocwork PDF patch: leave even when a value or garbage fails through `?`.
         let result = (|| loop {
             r.skip_white_spaces_and_comments();
 
@@ -217,7 +217,7 @@ impl<'a> Readable<'a> for Dict<'a> {
     }
 }
 
-// PdfCraft patch: (#307) retain the fast single-pass index for ordinary small
+// crocwork PDF patch: (#307) retain the fast single-pass index for ordinary small
 // dictionaries. Above this entry count, validate without retaining a hash table.
 const EAGER_DICT_ENTRIES: usize = 32;
 
@@ -236,7 +236,7 @@ pub(crate) struct CachedDict {
     offsets: SharedIndex,
 }
 
-// PdfCraft patch: share a validated large dictionary's index across pages. The cache
+// crocwork PDF patch: share a validated large dictionary's index across pages. The cache
 // belongs to the xref, owns its keys, and is bounded even on documents with many unique
 // dictionaries. Comparing the bytes also makes address reuse harmless. No reader context
 // is cached: decryption, object identity and reference-cycle tracking stay with each read.
@@ -371,7 +371,7 @@ pub(crate) fn probe_dict<'a>(
     })
 }
 
-// PdfCraft patch: an object where a key belongs is read, not skipped, so a dictionary
+// crocwork PDF patch: an object where a key belongs is read, not skipped, so a dictionary
 // holding another one there (`<< << …`) recursed without a bound. Count each parsed
 // dictionary like a skipped one, and leave on every exit of the parse below.
 fn parse_dict_with<'a, F>(

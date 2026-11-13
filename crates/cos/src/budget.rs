@@ -98,7 +98,7 @@ impl ImageBudget {
     /// `/JBIG2Globals`, as `CCITTFaxDecode` and `JBIG2Decode` give them (ISO 32000-2 §7.4.6,
     /// §7.4.7). Parameters given by reference count, for every filter
     /// ([`Document::with_direct_parms`]). A fax image's `/Columns` has to be its `/Width`, and a
-    /// JBIG2 image's page its `/Width` × `/Height`: PdfCraft's renderer draws the whole page into
+    /// JBIG2 image's page its `/Width` × `/Height`: crocwork PDF's renderer draws the whole page into
     /// the image. Up to its `/Height` rows are decoded, whatever a fax image's `/Rows` says; damaged
     /// fax data gives fewer, so a caller checks it has the rows it needs. Damaged JBIG2 data, and
     /// globals that can't be read (within [`MAX_JBIG2_GLOBALS`](crate::MAX_JBIG2_GLOBALS)), are an

@@ -1,7 +1,7 @@
 //! `cargo xtask assets`: enforce the asset policy (AGENTS.md §1).
 //!
 //! `ATTRIBUTION.toml` lists every asset: committed or vendored files (`[[asset]]`), files that
-//! Cargo dependencies compile into PdfCraft (`[[bundled]]`), and files xtask downloads at build
+//! Cargo dependencies compile into crocwork PDF (`[[bundled]]`), and files xtask downloads at build
 //! time (`[[fetched]]`). This gate fails when:
 //! - an asset-like file in the repository has no entry, or its SHA-256 is missing or differs;
 //! - a licence is not on the allowlist, or a declared licence file is missing;
@@ -37,7 +37,7 @@ pub const ALLOWED_LICENCES: &[&str] = &[
 ];
 
 /// The closed list of Adobe-authored, non-visual technical data (AGENTS.md §1.1): (crate, path).
-/// Storyteller's own brand marks (the ArtCraft name and logos): shipped in the app and docs, but
+/// Storyteller's own brand marks (the crocwork name and logos): shipped in the app and docs, but
 /// not licensed for reuse by forks. Allowed only for `kind = "logo"` entries under `docs/brand/`
 /// (AGENTS.md §1.2).
 pub const BRAND_LICENCE: &str = "LicenseRef-Storyteller-Trademark";
@@ -366,7 +366,7 @@ pub fn models(args: &[String]) -> Result<()> {
 
 /// The credits shipped beside the models (their licences require attribution).
 fn models_attribution(m: &Manifest) -> String {
-    let mut s = String::from("PdfCraft's text recognition (Scan & OCR) uses these models, unmodified.\n");
+    let mut s = String::from("crocwork PDF's text recognition (Scan & OCR) uses these models, unmodified.\n");
     for f in m.fetched.iter().filter(|f| f.kind == "model") {
         let _ = write!(
             s,
