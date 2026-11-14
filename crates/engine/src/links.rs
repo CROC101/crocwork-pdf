@@ -4,7 +4,7 @@
 use icu_properties::props::Script;
 use std::path::{Path, PathBuf};
 
-/// The app's name in crocwork URLs (`getartcraft.com/apps/{APP}`, `github.com/storytold/{APP}`).
+/// The app's name in crocwork URLs (`github.com/CROC101/crocwork-pdf/apps/{APP}`, `github.com/storytold/{APP}`).
 pub const APP: &str = "pdfcraft";
 
 pub const DISCORD: &str = "https://github.com/CROC101/crocwork-pdf";
