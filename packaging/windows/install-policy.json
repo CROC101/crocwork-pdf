@@ -1,7 +1,7 @@
 {
   "id": "pdfcraft",
   "name": "crocwork PDF",
-  "upgradeCode": "EA00C367-7270-4C50-9D8B-A7A5C88AD27F",
+  "upgradeCode": "26F81D5B-9255-53CF-97B5-C49ED9731853",
   "sources": [
     "pdfcraft.wxs",
     "installer-ui.wxs"
