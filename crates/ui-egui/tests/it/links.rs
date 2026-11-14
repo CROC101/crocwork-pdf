@@ -23,7 +23,7 @@ fn discord_button_in_the_top_bar_opens_discord() {
     h.get_by_label("Discord").click();
     h.run_steps(2);
     assert_eq!(h.state().last_opened_url.as_deref(), Some(links::DISCORD));
-    assert_eq!(links::DISCORD, "https://github.com/CROC101/crocwork-pdf");
+    assert_eq!(links::DISCORD, "https://discord.gg/sNYsVbh3v");
 }
 
 #[test]

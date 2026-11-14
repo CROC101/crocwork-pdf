@@ -94,7 +94,7 @@ pdfcraft-cli run    --script steps.json [--root DIR] [--report]
     "\
 pdfcraft-cli ui     --control FILE <method> [key=value …] [--out shot.png]
                                                            drive a running app started with --control FILE
-help and feedback: https://github.com/CROC101/crocwork-pdf"
+help and feedback: https://discord.gg/sNYsVbh3v"
 );
 
 fn main() -> ExitCode {

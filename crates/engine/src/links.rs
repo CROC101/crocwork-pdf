@@ -7,7 +7,7 @@ use std::path::{Path, PathBuf};
 /// The app's name in crocwork URLs (`github.com/CROC101/crocwork-pdf/apps/{APP}`, `github.com/storytold/{APP}`).
 pub const APP: &str = "pdfcraft";
 
-pub const DISCORD: &str = "https://github.com/CROC101/crocwork-pdf";
+pub const DISCORD: &str = "https://discord.gg/sNYsVbh3v";
 pub const WEBSITE: &str = "https://github.com/CROC101/crocwork-pdf";
 pub const APP_PAGE: &str = "https://github.com/CROC101/crocwork-pdf";
 pub const GITHUB: &str = "https://github.com/CROC101/crocwork-pdf";
