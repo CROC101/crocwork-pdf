@@ -26,32 +26,32 @@
     ],
     [
       "-1",
-      "Software\\Classes\\crocwork PDF.Document",
+      "Software\\Classes\\PdfCraft.Document",
       "",
       "PDF Document"
     ],
     [
       "-1",
-      "Software\\Classes\\crocwork PDF.Document\\DefaultIcon",
+      "Software\\Classes\\PdfCraft.Document\\DefaultIcon",
       "",
       "\"[#PdfcraftExe]\",-2"
     ],
     [
       "-1",
-      "Software\\Classes\\crocwork PDF.Document\\shell\\open\\command",
+      "Software\\Classes\\PdfCraft.Document\\shell\\open\\command",
       "",
       "\"[#PdfcraftExe]\" \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\crocwork PDF.Document",
+      "Software\\Classes\\PdfCraft.Document",
       "TypeOverlay",
       ""
     ],
     [
       "-1",
       "Software\\Classes\\.pdf\\OpenWithProgids",
-      "crocwork PDF.Document",
+      "PdfCraft.Document",
       ""
     ],
     [
@@ -100,7 +100,7 @@
       "-1",
       "Software\\crocwork PDF\\Capabilities\\FileAssociations",
       ".pdf",
-      "crocwork PDF.Document"
+      "PdfCraft.Document"
     ],
     [
       "-1",
@@ -122,205 +122,205 @@
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.pdf\\shell\\crocwork PDF.Edit",
+      "Software\\Classes\\SystemFileAssociations\\.pdf\\shell\\PdfCraft.Edit",
       "",
       "Edit with crocwork PDF"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.pdf\\shell\\crocwork PDF.Edit",
+      "Software\\Classes\\SystemFileAssociations\\.pdf\\shell\\PdfCraft.Edit",
       "Icon",
       "\"[#PdfcraftExe]\",0"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.pdf\\shell\\crocwork PDF.Edit",
+      "Software\\Classes\\SystemFileAssociations\\.pdf\\shell\\PdfCraft.Edit",
       "MultiSelectModel",
       "Document"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.pdf\\shell\\crocwork PDF.Edit\\command",
+      "Software\\Classes\\SystemFileAssociations\\.pdf\\shell\\PdfCraft.Edit\\command",
       "",
       "\"[#PdfcraftExe]\" \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.png\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.png\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.png\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.png\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.png\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.png\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpg\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.jpg\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpg\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.jpg\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpg\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.jpg\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpeg\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.jpeg\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpeg\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.jpeg\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpeg\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.jpeg\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.tif\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.tif\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.tif\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.tif\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.tif\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.tif\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.tiff\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.tiff\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.tiff\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.tiff\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.tiff\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.tiff\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.gif\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.gif\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.gif\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.gif\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.gif\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.gif\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.bmp\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.bmp\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.bmp\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.bmp\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.bmp\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.bmp\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jp2\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.jp2\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jp2\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.jp2\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jp2\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.jp2\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.j2k\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.j2k\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.j2k\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.j2k\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.j2k\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.j2k\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpx\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.jpx\\shell\\PdfCraft.CreatePdf",
       "",
       "Create PDF with crocwork PDF\u2026"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpx\\shell\\crocwork PDF.CreatePdf",
+      "Software\\Classes\\SystemFileAssociations\\.jpx\\shell\\PdfCraft.CreatePdf",
       "MultiSelectModel",
       "Single"
     ],
     [
       "-1",
-      "Software\\Classes\\SystemFileAssociations\\.jpx\\shell\\crocwork PDF.CreatePdf\\command",
+      "Software\\Classes\\SystemFileAssociations\\.jpx\\shell\\PdfCraft.CreatePdf\\command",
       "",
       "\"[#PdfcraftExe]\" --create-images \"%1\""
     ]

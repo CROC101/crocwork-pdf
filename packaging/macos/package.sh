@@ -117,7 +117,7 @@ echo "==> assembling $APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 # Executable and icon carry the display name (CFBundleExecutable / CFBundleIconFile).
 cp "$WORK/bin/pdfcraft" "$APP/Contents/MacOS/crocwork PDF"
-cp "$ROOT/assets/app-icon/pdfcraft.icns" "$APP/Contents/Resources/crocwork PDF.icns"
+cp "$ROOT/assets/app-icon/pdfcraft.icns" "$APP/Contents/Resources/PdfCraft.icns"
 # Required embedded-font notices are independent of optional font inputs.
 cp "$ROOT/NOTICE" "$APP/Contents/Resources/NOTICE"
 # The standard About panel (crocwork PDF menu > About crocwork PDF) shows Credits.rtf under the version:

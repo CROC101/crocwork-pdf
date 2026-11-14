@@ -2697,7 +2697,7 @@ source = "https://github.com/lucide-icons/lucide (npm lucide-static 1.49.0, icon
 licence = "ISC AND (MIT OR Apache-2.0)"
 licence_file = "assets/app-icon/LICENSE-document.txt"
 kind = "icon"
-usage = "Embedded in pdfcraft.exe as resource 2; the Windows installer uses it for crocwork PDF.Document and Applications/pdfcraft.exe PDF file associations"
+usage = "Embedded in pdfcraft.exe as resource 2; the Windows installer uses it for PdfCraft.Document and Applications/pdfcraft.exe PDF file associations"
 sha256 = "910be5e0ecdc94ce00368077ca1bef449bd5d62a75516feeb37884296c6fac4d"
 
 [[asset]]

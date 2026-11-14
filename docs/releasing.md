@@ -139,23 +139,23 @@ neither the MSI nor the portable zip needs the Visual C++ redistributable.
   (`INSTALLATION.md`). `/qn` and `/qb` stay unattended and create both unless
   `INSTALLDESKTOPSHORTCUT=0` or `INSTALLPDFCONTEXTMENU=0` is passed;
   `INSTALLIMAGECONTEXTMENU=0` (no checkbox) leaves out the image menu. An update (the launcher runs
-  `msiexec /passive` with no properties) keeps the desktop shortcut only if `crocwork PDF.lnk` is still
+  `msiexec /passive` with no properties) keeps the desktop shortcut only if `PdfCraft.lnk` is still
   on the all-users desktop, so deleting it once keeps it away (#1058), and keeps each menu only if
   its key path is still in HKLM (#305). Both are AppSearch results read before the old version is
   removed. An update from a release that didn't have a menu yet (before 0.7.1 for the PDF menu,
   before 0.4.0 for the image menu, found by `OnlyDetect` Upgrade rows) adds it like a first install.
   A value given on the command line wins.
 - The PDF right-click entry (#682) is a classic verb under
-  `HKLM\Software\Classes\SystemFileAssociations\.pdf\shell\crocwork PDF.Edit`, so it shows whichever app
+  `HKLM\Software\Classes\SystemFileAssociations\.pdf\shell\PdfCraft.Edit`, so it shows whichever app
   is the default for `.pdf` and never changes that default. Several selected PDFs (up to 15, the
   limit for a `Document` verb) start one `pdfcraft.exe "<file>"` each, and the single-instance
   hand-off opens them as tabs. On Windows 11 it is under "Show more options"; a first-level entry
   needs an `IExplorerCommand` handler and package identity (a sparse MSIX package), which the MSI
   doesn't have. "Combine files in crocwork PDF" (#585) is a second verb in the same component,
-  `crocwork PDF.Combine`, running `pdfcraft --combine "<file>"` once per selected file; the
+  `PdfCraft.Combine`, running `pdfcraft --combine "<file>"` once per selected file; the
   single-instance hand-off sends them with `"combine": true`, and the running app adds them to
   its Combine files tab (`OsEvent::Combine`). Both verbs come and go with `INSTALLPDFCONTEXTMENU`.
-- The image right-click entry (#190) is the same kind of verb, `crocwork PDF.CreatePdf`, for ten image
+- The image right-click entry (#190) is the same kind of verb, `PdfCraft.CreatePdf`, for ten image
   types, in its own component (`PdfcraftImageContextMenu`) since it became optional. Its rows moved
   out of `PdfcraftApp`; that's safe because `MajorUpgrade` removes the old version before installing
   the new one (`afterInstallValidate`), which `test-msi.ps1` checks.

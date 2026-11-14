@@ -815,7 +815,7 @@ mod tests {
             ("macos", "PdfCraft.app/Contents/MacOS", "PdfCraft.app/Contents/Resources/models"),
             ("linux-deb-rpm", "usr/bin", "usr/share/pdfcraft/models"),
             ("linux-tar", "pdfcraft-1.0.0-linux-x86_64/bin", "pdfcraft-1.0.0-linux-x86_64/share/pdfcraft/models"),
-            ("appimage", "crocwork PDF.AppDir/usr/bin", "crocwork PDF.AppDir/usr/share/pdfcraft/models"),
+            ("appimage", "PdfCraft.AppDir/usr/bin", "PdfCraft.AppDir/usr/share/pdfcraft/models"),
             ("flatpak", "app/bin", "app/share/pdfcraft/models"),
             ("freebsd", "usr/local/bin", "usr/local/share/pdfcraft/models"),
         ];

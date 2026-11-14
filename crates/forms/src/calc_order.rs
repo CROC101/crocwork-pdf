@@ -32,7 +32,7 @@ pub struct CalculatedField {
 /// Something wrong with a calculated field's formula or its place in the calculation order.
 #[derive(Clone, Debug, PartialEq)]
 pub enum CalculationIssue {
-    /// It reads `field`, which the form doesn't have (a field deleted, renamed outside crocwork PDF,
+    /// It reads `field`, which the form doesn't have (a field deleted, renamed outside PdfCraft,
     /// or mistyped), so the formula gets no value there.
     MissingField { field: String },
     /// It reads `field`, which calculates after it, so it uses that field's previous value.
